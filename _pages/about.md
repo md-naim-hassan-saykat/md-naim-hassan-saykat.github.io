@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Université Paris-Saclay</p>
     <p>Orsay, Île-de-France, France</p>
-    <p>mdnaimhassan@gmail.com</p>
+    <p>md-naim-hassan.saykat@universite-paris-saclay.fr</p>
 
 selected_papers: true
 social: true
