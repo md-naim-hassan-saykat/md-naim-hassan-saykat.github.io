@@ -42,7 +42,7 @@ I have completed multiple end-to-end research projects, including advanced deep 
 I am actively seeking **research collaborations**, **publication opportunities**, and **PhD positions** in AI, Computer Vision, or Medical Imaging.
 
 Feel free to check out my code and projects on GitHub:  
-- 🔬 Research Portfolio → <https://github.com/md-naim-hassan-saykat>  
-- 🩺 Skin Lesion Classification (HAM10000) → <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>
+-  Research Portfolio → <https://github.com/md-naim-hassan-saykat>  
+-  Skin Lesion Classification (HAM10000) → <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>
 
-If you’d like to collaborate on impactful AI research, feel free to reach out.
+If you would like to collaborate on impactful AI research, feel free to reach out.
