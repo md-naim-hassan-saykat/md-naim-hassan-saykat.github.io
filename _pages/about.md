@@ -26,23 +26,27 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-I am **Md Naim Hassan Saykat**, an AI researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformers**.  
-I am currently pursuing my Master’s at **Université Paris-Saclay**, where I develop generalizable and explainable deep learning systems for real-world diagnostic applications.
 
-My research focuses on:
+I am **Md Naim Hassan Saykat**, an AI researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based models**. I am currently pursuing my Master’s in Artificial Intelligence at **Université Paris-Saclay**, where my work focuses on developing **generalizable, efficient, and explainable deep learning systems** for real-world diagnostic settings.
 
-- **Medical image classification** (dermatology, radiology, X-ray interpretation)  
-- **Vision Transformers (ViT) and hybrid CNN–Transformer models**  
-- **Explainable AI (Grad-CAM, attention-based interpretability)**  
-- **Generalization across datasets** (HAM10000 → ISIC, cross-domain validation)  
-- **Edge-ready and efficient AI models** for deployment in resource-limited environments  
+My research interests include:
 
-I have completed multiple end-to-end research projects, including advanced deep learning ensembles for skin lesion classification, CycleGAN-based image translation, patent reranking using dense + cross encoders, and transformer-based medical image analysis.
+- **Medical image analysis** (dermatology, radiology, X-ray interpretation)  
+- **Vision Transformers (ViT)** and **hybrid CNN–Transformer architectures**  
+- **Explainable AI** (Grad-CAM, attention mechanisms, model interpretability)  
+- **Domain adaptation and cross-dataset generalization** (HAM10000 → ISIC)  
+- **Efficient and edge-optimized AI models** for deployment in resource-constrained environments  
 
-I am actively seeking **research collaborations**, **publication opportunities**, and **PhD positions** in AI, Computer Vision, or Medical Imaging.
+I have led and completed several end-to-end research projects, including:  
+- Deep ensemble models for **skin lesion classification**  
+- **CycleGAN**-based unpaired medical image translation  
+- **Patent reranking** using dense retrievers + cross-encoders  
+- Transformer-driven pipelines for medical imaging and AI explainability  
 
-Feel free to check out my code and projects on GitHub:  
--  Research Portfolio → <https://github.com/md-naim-hassan-saykat>  
--  Skin Lesion Classification (HAM10000) → <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>
+I am actively seeking opportunities for **research collaborations**, **journal publications**, and **PhD positions** in AI, Computer Vision, and Medical Imaging.
 
-If you would like to collaborate on impactful AI research, feel free to reach out.
+Feel free to explore my research and code on GitHub:  
+- **Research Portfolio** → <https://github.com/md-naim-hassan-saykat>  
+- **Skin Lesion Classification (HAM10000)** → <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>
+
+If you are interested in collaborating or discussing research ideas, please feel free to contact me.
