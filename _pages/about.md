@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Artificial Intelligence Researcher</a> · Computer Vision · Medical Imaging
+subtitle: Artificial Intelligence Researcher · Computer Vision · Medical Imaging
 
 profile:
   align: right
