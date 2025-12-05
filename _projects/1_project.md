@@ -3,7 +3,7 @@ layout: project
 title: "Generalizable Deep Learning Ensemble for Skin Lesion Classification"
 subtitle: "HAM10000 & ISIC 2019 · CNN, ResNet50, EfficientNet, ConvNeXt, ViT"
 description: "A state-of-the-art ensemble framework for melanoma and skin lesion diagnosis with cross-dataset validation and explainable AI (Grad-CAM)."
-img: /assets/img/skin-lesion-cover.jpg
+img: assets/img/skin-lesion-cover.jpg
 importance: 1
 category: research
 related_publications: true
