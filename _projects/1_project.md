@@ -1,18 +1,3 @@
----
-layout: project
-title: "Generalizable Deep Learning Ensemble for Skin Lesion Classification"
-subtitle: "HAM10000 & ISIC 2019 · CNN, ResNet50, EfficientNet, ConvNeXt, ViT"
-description: "A state-of-the-art ensemble framework for melanoma and skin lesion diagnosis with cross-dataset validation and explainable AI (Grad-CAM)."
-img: assets/img/skin-lesion-cover.jpg
-importance: 1
-category: work
-related_publications: true
-
-links:
-  github: "https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
-  paper: "https://arxiv.org/xxxx.xxxxx"   # Optional — remove if not available
-  notebook: "https://www.kaggle.com/your-kaggle-notebook-link"   # Optional
----
 <div class="container mt-4">
 
 <p class="lead">
@@ -31,14 +16,18 @@ and interpretability through <strong>Grad-CAM</strong>.
 
 ## Project Architecture
 
-<div class="text-center my-4">
-  {% include figure.liquid 
-     path="assets/img/skin-lesion-cover.jpg" 
-     title="Ensemble Learning Pipeline" 
-     class="img-fluid rounded shadow" %}
+<div class="row justify-content-center my-4">
+  <div class="col-lg-8 col-md-9 col-sm-11">
+    {% include figure.liquid 
+       path="assets/img/skin-lesion-cover.jpg" 
+       title="Ensemble Learning Pipeline" 
+       class="img-fluid rounded shadow" %}
+  </div>
 </div>
 
-<p class="text-muted text-center">High-level overview of the ensemble-based skin lesion classification workflow.</p>
+<p class="text-muted text-center mb-4">
+High-level overview of the ensemble-based skin lesion classification workflow.
+</p>
 
 <hr>
 
@@ -74,24 +63,26 @@ and interpretability through <strong>Grad-CAM</strong>.
 
 ## Results Summary
 
-- Ensemble outperformed all individual models  
-- Superior **melanoma sensitivity**  
-- High **macro-F1** and **ROC–AUC** across datasets  
-- Stable predictions across rare lesion types  
-- External validation confirms **strong generalization**
+<ul>
+  <li>Ensemble outperformed all individual models</li>
+  <li>Superior <strong>melanoma sensitivity</strong></li>
+  <li>High <strong>macro-F1</strong> and <strong>ROC–AUC</strong> across datasets</li>
+  <li>Stable predictions across rare lesion types</li>
+  <li>External validation confirms <strong>strong generalization</strong></li>
+</ul>
 
 <hr>
 
 ## Explainable AI (Grad-CAM)
 
 <div class="row justify-content-center mt-4">
-  <div class="col-sm-5">
+  <div class="col-sm-5 mb-3">
     {% include figure.liquid 
        path="assets/img/gradcam1.jpg" 
        title="Melanoma – Grad-CAM Heatmap" 
        class="img-fluid rounded shadow" %}
   </div>
-  <div class="col-sm-5">
+  <div class="col-sm-5 mb-3">
     {% include figure.liquid 
        path="assets/img/gradcam2.jpg" 
        title="Nevus – Grad-CAM Heatmap" 
@@ -107,6 +98,8 @@ Grad-CAM visualizations demonstrate model interpretability and highlight clinica
 
 ## Publication Status
 
-This work is part of an upcoming **Q1 journal submission** on generalizable medical imaging AI systems.
+<p>
+This work is part of an upcoming <strong>Q1 journal submission</strong> on generalizable medical imaging AI systems.
+</p>
 
 </div>
