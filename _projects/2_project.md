@@ -65,7 +65,7 @@ Side-by-side comparison of CycleGAN horse → zebra translation.
 
 <hr>
 
-## 🦓 Example Results (Zebra → Horse)
+## Example Results (Zebra → Horse)
 
 <div class="row justify-content-center mt-4">
 
