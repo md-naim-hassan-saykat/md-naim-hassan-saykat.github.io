@@ -5,7 +5,7 @@ subtitle: "Horse ↔ Zebra Translation · Generative Adversarial Networks"
 description: "Implementation of CycleGAN for unpaired image-to-image translation using ResNet generators and PatchGAN discriminators."
 img: /assets/img/cyclegan-cover.jpg
 importance: 2
-category: deep-learning
+category: work
 giscus_comments: true
 
 links:
