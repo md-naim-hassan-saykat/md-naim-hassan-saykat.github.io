@@ -12,18 +12,18 @@ links:
   github: "https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan"
 ---
 
-This project implements CycleGAN for unpaired image-to-image translation between horses and zebras, based on the 
-seminal paper *"Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks"* by Zhu et al. (2017).
+This project implements **CycleGAN** for unpaired image-to-image translation between horses and zebras, inspired by  
+the seminal paper *“Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks”* by Zhu et al. (2017).
 
 The model uses:
-- **ResNet-9 generator architecture**
-- **70×70 PatchGAN discriminators**
-- **Cycle-consistency loss** to preserve semantic structure
-- **Identity loss** for improved color and texture preservation
 
-Training was conducted using the Horse2Zebra dataset, enabling realistic transformation of horses into zebras and 
-vice versa without paired examples. The project includes full training loops, dataset pipelines, inference scripts, 
-and visualization utilities to showcase generated outputs.
+- **ResNet-9 generator architecture**  
+- **70×70 PatchGAN discriminators**  
+- **Cycle-consistency loss** for structural preservation  
+- **Identity loss** to maintain color and texture consistency  
+
+The **Horse2Zebra** dataset was used for training, enabling photorealistic translation between domains **without paired images**.  
+The project includes full training pipelines, inference notebooks, and visualization tools.
 
 ---
 
@@ -31,15 +31,15 @@ and visualization utilities to showcase generated outputs.
 
 <div class="row">
   <div class="col-sm mt-3">
-    {% include figure.liquid path="assets/img/cyclegan-horse.jpg" title="Original Horse" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/cyclegan-horse.jpg" title="Original Horse" class="img-fluid rounded shadow" %}
   </div>
   <div class="col-sm mt-3">
-    {% include figure.liquid path="assets/img/cyclegan-zebra.jpg" title="Translated to Zebra" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/cyclegan-zebra.jpg" title="Translated to Zebra" class="img-fluid rounded shadow" %}
   </div>
 </div>
 
-<div class="caption">
-  Example of CycleGAN translating a horse image into a zebra without paired training data.
+<div class="caption text-center mt-2">
+  CycleGAN transforming a real horse image into a zebra — no paired data required.
 </div>
 
 ---
@@ -48,15 +48,15 @@ and visualization utilities to showcase generated outputs.
 
 <div class="row">
   <div class="col-sm mt-3">
-    {% include figure.liquid path="assets/img/cyclegan-zebra-original.jpg" title="Original Zebra" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/cyclegan-zebra-original.jpg" title="Original Zebra" class="img-fluid rounded shadow" %}
   </div>
   <div class="col-sm mt-3">
-    {% include figure.liquid path="assets/img/cyclegan-horse-generated.jpg" title="Translated to Horse" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/cyclegan-horse-generated.jpg" title="Translated to Horse" class="img-fluid rounded shadow" %}
   </div>
 </div>
 
-<div class="caption">
-  Reverse translation (Zebra → Horse) using the inverse CycleGAN generator.
+<div class="caption text-center mt-2">
+  Reverse translation: a zebra converted into a horse using the inverse generator.
 </div>
 
 ---
