@@ -38,21 +38,27 @@ The <strong>Horse2Zebra</strong> dataset was used for training, enabling photore
 ## 🐎 Example Results (Horse → Zebra)
 
 <div class="row justify-content-center mt-4">
+
   <div class="col-sm-5 text-center">
     <h5 class="mb-2">Real Horse</h5>
-    {% include figure.liquid 
-       path="assets/img/cyclegan-horse.jpg" 
-       title="Original Horse" 
-       class="img-fluid rounded shadow-sm" %}
+    <div style="max-width: 420px; margin: auto;">
+      {% include figure.liquid 
+         path="assets/img/cyclegan-horse.jpg" 
+         title="Original Horse" 
+         class="img-fluid rounded shadow-sm" %}
+    </div>
   </div>
 
   <div class="col-sm-5 text-center">
     <h5 class="mb-2">Translated Zebra</h5>
-    {% include figure.liquid 
-       path="assets/img/cyclegan-zebra.jpg" 
-       title="Generated Zebra" 
-       class="img-fluid rounded shadow-sm" %}
+    <div style="max-width: 420px; margin: auto;">
+      {% include figure.liquid 
+         path="assets/img/cyclegan-zebra.jpg" 
+         title="Generated Zebra" 
+         class="img-fluid rounded shadow-sm" %}
+    </div>
   </div>
+
 </div>
 
 <p class="text-muted text-center mt-2">
@@ -64,21 +70,27 @@ CycleGAN successfully transforms horses into zebra-like images using unpaired tr
 ## 🦓 Example Results (Zebra → Horse)
 
 <div class="row justify-content-center mt-4">
+
   <div class="col-sm-5 text-center">
     <h5 class="mb-2">Real Zebra</h5>
-    {% include figure.liquid 
-       path="assets/img/cyclegan-zebra-original.jpg" 
-       title="Original Zebra" 
-       class="img-fluid rounded shadow-sm" %}
+    <div style="max-width: 420px; margin: auto;">
+      {% include figure.liquid 
+         path="assets/img/cyclegan-zebra-original.jpg" 
+         title="Original Zebra" 
+         class="img-fluid rounded shadow-sm" %}
+    </div>
   </div>
 
   <div class="col-sm-5 text-center">
     <h5 class="mb-2">Translated Horse</h5>
-    {% include figure.liquid 
-       path="assets/img/cyclegan-horse-generated.jpg" 
-       title="Generated Horse" 
-       class="img-fluid rounded shadow-sm" %}
+    <div style="max-width: 420px; margin: auto;">
+      {% include figure.liquid 
+         path="assets/img/cyclegan-horse-generated.jpg" 
+         title="Generated Horse" 
+         class="img-fluid rounded shadow-sm" %}
+    </div>
   </div>
+
 </div>
 
 <p class="text-muted text-center mt-2">
