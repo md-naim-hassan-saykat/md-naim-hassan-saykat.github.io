@@ -5,7 +5,7 @@ subtitle: "HAM10000 & ISIC 2019 · CNN, ResNet50, EfficientNet, ConvNeXt, ViT"
 description: "A state-of-the-art ensemble framework for melanoma and skin lesion diagnosis with cross-dataset validation and explainable AI (Grad-CAM)."
 img: assets/img/skin-lesion-cover.jpg
 importance: 1
-category: research
+category: work
 related_publications: true
 
 links:
