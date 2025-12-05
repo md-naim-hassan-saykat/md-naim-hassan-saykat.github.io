@@ -451,12 +451,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-generalizable-deep-learning-ensemble-for-skin-lesion-classification",
-          title: 'Generalizable Deep Learning Ensemble for Skin Lesion Classification',
-          description: "A state-of-the-art ensemble framework for melanoma and skin lesion diagnosis with cross-dataset validation and explainable AI (Grad-CAM).",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-unpaired-image-to-image-translation-with-cyclegan",
+          section: "News",},{id: "projects-unpaired-image-to-image-translation-with-cyclegan",
           title: 'Unpaired Image-to-Image Translation with CycleGAN',
           description: "Implementation of CycleGAN for unpaired image-to-image translation using ResNet generators and PatchGAN discriminators.",
           section: "Projects",handler: () => {
