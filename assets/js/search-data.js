@@ -456,9 +456,9 @@ ninja.data = [{
           description: "A state-of-the-art ensemble framework for melanoma and skin lesion diagnosis with cross-dataset validation and explainable AI (Grad-CAM).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-unpaired-image-to-image-translation-with-cyclegan",
+          title: 'Unpaired Image-to-Image Translation with CycleGAN',
+          description: "Implementation of CycleGAN for unpaired image-to-image translation using ResNet generators and PatchGAN discriminators.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
