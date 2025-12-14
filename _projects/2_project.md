@@ -22,7 +22,7 @@ introduced by <em>Zhu et&nbsp;al.</em> (ICCV&nbsp;2017) and emphasizes stable tr
 visual fidelity, and reproducibility.
 </p>
 
-<hr>
+---
 
 ## Model Architecture
 
@@ -34,12 +34,12 @@ visual fidelity, and reproducibility.
 </ul>
 
 <p>
-Training was conducted on the <strong>Horse2Zebra</strong> dataset without aligned
-image pairs, demonstrating CycleGAN’s ability to learn cross-domain mappings
-using cycle consistency alone.
+Training was conducted on the <strong>Horse2Zebra</strong> dataset without aligned image
+pairs, demonstrating CycleGAN’s ability to learn cross-domain mappings using
+cycle consistency alone.
 </p>
 
-<hr>
+---
 
 ## Qualitative Results
 
@@ -70,10 +70,10 @@ using cycle consistency alone.
 </div>
 
 <p class="text-muted text-center mt-2">
-Example of unpaired horse-to-zebra translation produced by CycleGAN.
+Qualitative example of unpaired horse-to-zebra translation produced by CycleGAN.
 </p>
 
-<hr>
+---
 
 ### Zebra-to-Horse Translation
 
@@ -105,27 +105,27 @@ Example of unpaired horse-to-zebra translation produced by CycleGAN.
 Reverse translation results obtained using the inverse generator.
 </p>
 
-<hr>
+---
 
 ## Key Highlights
 
 <ul>
   <li>Fully unpaired training without paired supervision</li>
-  <li>Consistent and coherent style transfer across domains</li>
+  <li>Consistent and coherent style transfer across visual domains</li>
   <li>Lightweight architecture with a reproducible training pipeline</li>
 </ul>
 
-<hr>
+---
 
 ## Limitations
 
 <p>
-While CycleGAN produces visually coherent translations, fine-grained texture
+Although CycleGAN produces visually coherent translations, fine-grained texture
 consistency and structural artifacts remain challenging, particularly in complex
 background regions.
 </p>
 
-<hr>
+---
 
 ## Reference
 
