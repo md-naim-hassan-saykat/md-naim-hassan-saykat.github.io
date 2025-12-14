@@ -35,7 +35,7 @@ My research interests include:
 - **Medical Image Analysis** (dermatology, radiology, X-ray interpretation)  
 - **Vision Transformers (ViT)** and **hybrid CNN–Transformer models**  
 - **Explainable AI (XAI)** — Grad-CAM, attention maps, feature attribution  
-- **Domain adaptation & cross-dataset robustness** (e.g., HAM10000 → ISIC 2019)  
+- **Domain adaptation & cross-dataset robustness** (e.g., HAM10000-to-ISIC 2019)  
 - **Edge-efficient & deployable AI** for low-resource clinical environments  
 
 I have led and delivered multiple end-to-end research projects, including:  
@@ -55,6 +55,6 @@ I am currently seeking opportunities for:
 
 ### 🔗 Useful Links  
 - **Research Portfolio** → <https://github.com/md-naim-hassan-saykat>  
-- **Skin Lesion Classification (HAM10000 → ISIC)** → <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>  
+- **Skin Lesion Classification (HAM10000-to-ISIC)** → <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>  
 
 If you are interested in collaborating or discussing research ideas, feel free to reach out.  
