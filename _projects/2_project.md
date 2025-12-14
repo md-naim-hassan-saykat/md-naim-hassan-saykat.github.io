@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Unpaired Image-to-Image Translation with CycleGAN"
-subtitle: "Horse-to-Zebra Translation · Generative Adversarial Networks"
+subtitle: "Horse ↔ Zebra Translation · Generative Adversarial Networks"
 description: "Implementation of CycleGAN for unpaired image-to-image translation using ResNet generators and PatchGAN discriminators."
 img: /assets/img/cyclegan-cover.jpg
 importance: 2
@@ -15,12 +15,14 @@ links:
 <div class="container mt-4">
 
 <p class="lead">
-This project presents an implementation of <strong>CycleGAN</strong> for <em>unpaired image-to-image translation</em>,
-focusing on bidirectional translation between horses and zebras. The work follows the original formulation
-introduced by Zhu et al. (ICCV 2017) and emphasizes stable training, visual fidelity, and reproducibility.
+This project presents an implementation of <strong>CycleGAN</strong> for
+<strong>unpaired image-to-image translation</strong>, focusing on bidirectional
+translation between horses and zebras. The work follows the original formulation
+introduced by <em>Zhu et&nbsp;al.</em> (ICCV&nbsp;2017) and emphasizes stable training,
+visual fidelity, and reproducibility.
 </p>
 
----
+<hr>
 
 ## Model Architecture
 
@@ -32,20 +34,21 @@ introduced by Zhu et al. (ICCV 2017) and emphasizes stable training, visual fide
 </ul>
 
 <p>
-Training was conducted on the <strong>Horse2Zebra</strong> dataset without aligned image pairs,
-demonstrating CycleGAN’s ability to learn cross-domain mappings using cycle consistency alone.
+Training was conducted on the <strong>Horse2Zebra</strong> dataset without aligned
+image pairs, demonstrating CycleGAN’s ability to learn cross-domain mappings
+using cycle consistency alone.
 </p>
 
----
+<hr>
 
 ## Qualitative Results
 
-### Horse-to-Zebra Translation
+### Horse → Zebra Translation
 
 <div class="row justify-content-center mt-4">
 
   <div class="col-md-5 text-center">
-    <h6 class="mb-2 text-uppercase text-muted">Input (Horse)</h6>
+    <h6 class="text-uppercase text-muted mb-2">Input (Horse)</h6>
     <div style="max-width: 360px; margin: auto;">
       {% include figure.liquid
          path="assets/img/cyclegan-horse.jpg"
@@ -55,7 +58,7 @@ demonstrating CycleGAN’s ability to learn cross-domain mappings using cycle co
   </div>
 
   <div class="col-md-5 text-center">
-    <h6 class="mb-2 text-uppercase text-muted">Output (Zebra)</h6>
+    <h6 class="text-uppercase text-muted mb-2">Output (Zebra)</h6>
     <div style="max-width: 360px; margin: auto;">
       {% include figure.liquid
          path="assets/img/cyclegan-zebra.jpg"
@@ -67,17 +70,17 @@ demonstrating CycleGAN’s ability to learn cross-domain mappings using cycle co
 </div>
 
 <p class="text-muted text-center mt-2">
-Qualitative example of unpaired horse-to-zebra translation produced by CycleGAN.
+Example of unpaired horse-to-zebra translation produced by CycleGAN.
 </p>
 
----
+<hr>
 
-### Zebra-to-Horse Translation
+### Zebra → Horse Translation
 
 <div class="row justify-content-center mt-4">
 
   <div class="col-md-5 text-center">
-    <h6 class="mb-2 text-uppercase text-muted">Input (Zebra)</h6>
+    <h6 class="text-uppercase text-muted mb-2">Input (Zebra)</h6>
     <div style="max-width: 360px; margin: auto;">
       {% include figure.liquid
          path="assets/img/cyclegan-zebra-original.jpg"
@@ -87,7 +90,7 @@ Qualitative example of unpaired horse-to-zebra translation produced by CycleGAN.
   </div>
 
   <div class="col-md-5 text-center">
-    <h6 class="mb-2 text-uppercase text-muted">Output (Horse)</h6>
+    <h6 class="text-uppercase text-muted mb-2">Output (Horse)</h6>
     <div style="max-width: 360px; margin: auto;">
       {% include figure.liquid
          path="assets/img/cyclegan-horse-generated.jpg"
@@ -102,7 +105,7 @@ Qualitative example of unpaired horse-to-zebra translation produced by CycleGAN.
 Reverse translation results obtained using the inverse generator.
 </p>
 
----
+<hr>
 
 ## Key Highlights
 
@@ -112,13 +115,23 @@ Reverse translation results obtained using the inverse generator.
   <li>Lightweight architecture with a reproducible training pipeline</li>
 </ul>
 
----
+<hr>
+
+## Limitations
+
+<p>
+While CycleGAN produces visually coherent translations, fine-grained texture
+consistency and structural artifacts remain challenging, particularly in complex
+background regions.
+</p>
+
+<hr>
 
 ## Reference
 
 <p class="text-muted">
-Zhu et al., <em>Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks</em>,
-ICCV 2017.
+Zhu et&nbsp;al., <em>Unpaired Image-to-Image Translation using Cycle-Consistent
+Adversarial Networks</em>, ICCV&nbsp;2017.
 </p>
 
 </div>
