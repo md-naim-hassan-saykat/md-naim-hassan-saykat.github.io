@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Unpaired Image-to-Image Translation with CycleGAN"
-subtitle: "Horse ↔ Zebra Translation · Generative Adversarial Networks"
+subtitle: "Horse-to-Zebra Translation · Generative Adversarial Networks"
 description: "Implementation of CycleGAN for unpaired image-to-image translation using ResNet generators and PatchGAN discriminators."
 img: /assets/img/cyclegan-cover.jpg
 importance: 2
@@ -43,7 +43,7 @@ using cycle consistency alone.
 
 ## Qualitative Results
 
-### Horse → Zebra Translation
+### Horse-to-Zebra Translation
 
 <div class="row justify-content-center mt-4">
 
@@ -75,7 +75,7 @@ Example of unpaired horse-to-zebra translation produced by CycleGAN.
 
 <hr>
 
-### Zebra → Horse Translation
+### Zebra-to-Horse Translation
 
 <div class="row justify-content-center mt-4">
 
