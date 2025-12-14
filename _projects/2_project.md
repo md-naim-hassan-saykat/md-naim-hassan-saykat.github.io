@@ -24,7 +24,7 @@ visual fidelity, and reproducibility.
 
 ---
 
-## Model Architecture
+# Model Architecture
 
 <ul>
   <li><strong>Generators:</strong> ResNet-9 architecture</li>
@@ -41,9 +41,9 @@ cycle consistency alone.
 
 ---
 
-## Qualitative Results
+# Qualitative Results
 
-### Horse-to-Zebra Translation
+# Horse-to-Zebra Translation
 
 <div class="row justify-content-center mt-4">
 
@@ -75,7 +75,7 @@ Qualitative example of unpaired horse-to-zebra translation produced by CycleGAN.
 
 ---
 
-### Zebra-to-Horse Translation
+# Zebra-to-Horse Translation
 
 <div class="row justify-content-center mt-4">
 
@@ -107,7 +107,7 @@ Reverse translation results obtained using the inverse generator.
 
 ---
 
-## Key Highlights
+# Key Highlights
 
 <ul>
   <li>Fully unpaired training without paired supervision</li>
@@ -117,7 +117,7 @@ Reverse translation results obtained using the inverse generator.
 
 ---
 
-## Limitations
+# Limitations
 
 <p>
 Although CycleGAN produces visually coherent translations, fine-grained texture
@@ -127,7 +127,7 @@ background regions.
 
 ---
 
-## Reference
+# Reference
 
 <p class="text-muted">
 Zhu et&nbsp;al., <em>Unpaired Image-to-Image Translation using Cycle-Consistent
