@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Unpaired Image-to-Image Translation with CycleGAN"
-subtitle: "Horse ↔ Zebra Translation · Generative Adversarial Networks"
+subtitle: "Horse-to-Zebra Translation · Generative Adversarial Networks"
 description: "Implementation of CycleGAN for unpaired image-to-image translation using ResNet generators and PatchGAN discriminators."
 img: /assets/img/cyclegan-cover.jpg
 importance: 2
@@ -15,44 +15,51 @@ links:
 <div class="container mt-4">
 
 <p class="lead">
-This project implements <strong>CycleGAN</strong> for unpaired image-to-image translation between horses and zebras,
-inspired by Zhu et al. (2017).
+This project presents an implementation of <strong>CycleGAN</strong> for <em>unpaired image-to-image translation</em>,
+focusing on bidirectional translation between horses and zebras. The work follows the original formulation
+introduced by Zhu et al. (ICCV 2017) and emphasizes stable training, visual fidelity, and reproducibility.
 </p>
 
-<h3>Model Components</h3>
+---
+
+## Model Architecture
+
 <ul>
-  <li><strong>ResNet-9</strong> generators</li>
-  <li><strong>70×70 PatchGAN</strong> discriminators</li>
-  <li><strong>Cycle-consistency loss</strong></li>
-  <li><strong>Identity loss</strong> for color preservation</li>
+  <li><strong>Generators:</strong> ResNet-9 architecture</li>
+  <li><strong>Discriminators:</strong> 70×70 PatchGAN</li>
+  <li><strong>Loss functions:</strong> Adversarial loss, cycle-consistency loss, identity loss</li>
+  <li><strong>Training paradigm:</strong> Fully unpaired image-to-image translation</li>
 </ul>
 
 <p>
-Training was performed on the <strong>Horse2Zebra</strong> dataset without paired samples.
+Training was conducted on the <strong>Horse2Zebra</strong> dataset without aligned image pairs,
+demonstrating CycleGAN’s ability to learn cross-domain mappings using cycle consistency alone.
 </p>
 
-<hr>
+---
 
-## 🐎 Example Results (Horse → Zebra)
+## Qualitative Results
+
+### Horse-to-Zebra Translation
 
 <div class="row justify-content-center mt-4">
 
   <div class="col-md-5 text-center">
-    <h5 class="mb-2">Real Horse</h5>
-    <div style="max-width: 350px; margin: auto;">
-      {% include figure.liquid 
-         path="assets/img/cyclegan-horse.jpg" 
-         title="Original Horse"
+    <h6 class="mb-2 text-uppercase text-muted">Input (Horse)</h6>
+    <div style="max-width: 360px; margin: auto;">
+      {% include figure.liquid
+         path="assets/img/cyclegan-horse.jpg"
+         title="Real Horse"
          class="img-fluid rounded shadow-sm" %}
     </div>
   </div>
 
   <div class="col-md-5 text-center">
-    <h5 class="mb-2">Translated Zebra</h5>
-    <div style="max-width: 350px; margin: auto;">
-      {% include figure.liquid 
-         path="assets/img/cyclegan-zebra.jpg" 
-         title="Generated Zebra"
+    <h6 class="mb-2 text-uppercase text-muted">Output (Zebra)</h6>
+    <div style="max-width: 360px; margin: auto;">
+      {% include figure.liquid
+         path="assets/img/cyclegan-zebra.jpg"
+         title="Translated Zebra"
          class="img-fluid rounded shadow-sm" %}
     </div>
   </div>
@@ -60,31 +67,31 @@ Training was performed on the <strong>Horse2Zebra</strong> dataset without paire
 </div>
 
 <p class="text-muted text-center mt-2">
-Side-by-side comparison of CycleGAN horse → zebra translation.
+Qualitative example of unpaired horse-to-zebra translation produced by CycleGAN.
 </p>
 
-<hr>
+---
 
-## Example Results (Zebra → Horse)
+### Zebra-to-Horse Translation
 
 <div class="row justify-content-center mt-4">
 
   <div class="col-md-5 text-center">
-    <h5 class="mb-2">Real Zebra</h5>
-    <div style="max-width: 350px; margin: auto;">
-      {% include figure.liquid 
-         path="assets/img/cyclegan-zebra-original.jpg" 
-         title="Original Zebra"
+    <h6 class="mb-2 text-uppercase text-muted">Input (Zebra)</h6>
+    <div style="max-width: 360px; margin: auto;">
+      {% include figure.liquid
+         path="assets/img/cyclegan-zebra-original.jpg"
+         title="Real Zebra"
          class="img-fluid rounded shadow-sm" %}
     </div>
   </div>
 
   <div class="col-md-5 text-center">
-    <h5 class="mb-2">Translated Horse</h5>
-    <div style="max-width: 350px; margin: auto;">
-      {% include figure.liquid 
-         path="assets/img/cyclegan-horse-generated.jpg" 
-         title="Generated Horse"
+    <h6 class="mb-2 text-uppercase text-muted">Output (Horse)</h6>
+    <div style="max-width: 360px; margin: auto;">
+      {% include figure.liquid
+         path="assets/img/cyclegan-horse-generated.jpg"
+         title="Translated Horse"
          class="img-fluid rounded shadow-sm" %}
     </div>
   </div>
@@ -92,16 +99,26 @@ Side-by-side comparison of CycleGAN horse → zebra translation.
 </div>
 
 <p class="text-muted text-center mt-2">
-Reverse translation results using the inverse generator.
+Reverse translation results obtained using the inverse generator.
 </p>
 
-<hr>
+---
 
-<h3>Highlights</h3>
+## Key Highlights
+
 <ul>
-  <li>Fully unpaired training</li>
-  <li>Consistent style transfer across domains</li>
-  <li>Lightweight architecture, reproducible pipeline</li>
+  <li>Fully unpaired training without paired supervision</li>
+  <li>Consistent and coherent style transfer across domains</li>
+  <li>Lightweight architecture with a reproducible training pipeline</li>
 </ul>
+
+---
+
+## Reference
+
+<p class="text-muted">
+Zhu et al., <em>Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks</em>,
+ICCV 2017.
+</p>
 
 </div>
