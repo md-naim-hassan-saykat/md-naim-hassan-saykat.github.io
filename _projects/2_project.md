@@ -43,7 +43,7 @@ cycle consistency alone.
 
 # Qualitative Results
 
-# Horse-to-Zebra Translation
+## Horse-to-Zebra Translation
 
 <div class="row justify-content-center mt-4">
 
@@ -75,7 +75,7 @@ Qualitative example of unpaired horse-to-zebra translation produced by CycleGAN.
 
 ---
 
-# Zebra-to-Horse Translation
+## Zebra-to-Horse Translation
 
 <div class="row justify-content-center mt-4">
 
