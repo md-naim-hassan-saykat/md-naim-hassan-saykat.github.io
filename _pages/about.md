@@ -54,7 +54,7 @@ I am currently seeking opportunities for:
 - **PhD positions** in Computer Vision, Medical Imaging, or Multimodal AI  
 
 ### 🔗 Useful Links  
-- **Research Portfolio** → <https://github.com/md-naim-hassan-saykat>  
-- **Skin Lesion Classification (HAM10000-to-ISIC)** → <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>  
+- **Research Portfolio** -> <https://github.com/md-naim-hassan-saykat>  
+- **Skin Lesion Classification (HAM10000-to-ISIC)** -> <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>  
 
 If you are interested in collaborating or discussing research ideas, feel free to reach out.  
