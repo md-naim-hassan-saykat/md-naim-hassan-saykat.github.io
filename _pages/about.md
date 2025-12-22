@@ -32,29 +32,31 @@ I am currently pursuing my Master’s in Artificial Intelligence at **Universit�
 
 My research interests include:
 
-- **Medical Image Analysis** (dermatology, radiology, X-ray interpretation)  
-- **Vision Transformers (ViT)** and **hybrid CNN–Transformer models**  
-- **Explainable AI (XAI)** — Grad-CAM, attention maps, feature attribution  
-- **Domain adaptation & cross-dataset robustness** (e.g., HAM10000-to-ISIC 2019)  
-- **Edge-efficient & deployable AI** for low-resource clinical environments  
+- **Medical Image Analysis** (dermatology, radiology, X-ray interpretation)
+- **Vision Transformers (ViT)** and **hybrid CNN–Transformer models**
+- **Explainable AI (XAI)** — Grad-CAM, attention maps, feature attribution
+- **Domain adaptation & cross-dataset robustness** (e.g., HAM10000-to-ISIC 2019)
+- **Edge-efficient & deployable AI** for low-resource clinical environments
 
-I have led and delivered multiple end-to-end research projects, including:  
+I have led and delivered multiple end-to-end research projects, including:
 
-- **Generalizable Deep Ensemble Models for Skin Lesion Classification**  
-- **Explainable Vision Transformer pipelines** for medical imaging  
-- **CycleGAN-based unpaired image-to-image translation** for medical domains  
-- **Patent reranking using dense retrievers + cross-encoders**  
-- **Transformer-driven explainability frameworks** for clinical decision support  
+- **Generalizable Deep Ensemble Models for Skin Lesion Classification**
+- **Explainable Vision Transformer pipelines** for medical imaging
+- **CycleGAN-based unpaired image-to-image translation** for medical domains
+- **Patent reranking using dense retrievers + cross-encoders**
+- **Transformer-driven explainability frameworks** for clinical decision support
 
 My work emphasizes **robustness**, **clinical interpretability**, and **publishable research quality**, and I am actively preparing manuscripts for **Q1 journal submissions**.
 
-I am currently seeking opportunities for:  
-- **Research collaborations**  
-- **Journal and conference publications**  
-- **PhD positions** in Computer Vision, Medical Imaging, or Multimodal AI  
+I am currently seeking opportunities for:
 
-### Useful Links  
-- **Research Portfolio:** <https://github.com/md-naim-hassan-saykat>  
-- **Skin Lesion Classification (HAM10000-to-ISIC):** <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>  
+- **Research collaborations**
+- **Journal and conference publications**
+- **PhD positions** in Computer Vision, Medical Imaging, or Multimodal AI
 
-If you are interested in collaborating or discussing research ideas, feel free to reach out.  
+### Useful Links
+
+- **Research Portfolio:** <https://github.com/md-naim-hassan-saykat>
+- **Skin Lesion Classification (HAM10000-to-ISIC):** <https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000>
+
+If you are interested in collaborating or discussing research ideas, feel free to reach out.
