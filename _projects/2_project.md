@@ -1,4 +1,4 @@
----
+≈---
 layout: project
 title: "Unpaired Image-to-Image Translation with CycleGAN"
 subtitle: "Horse-to-Zebra Translation · Generative Adversarial Networks"
