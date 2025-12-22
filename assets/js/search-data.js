@@ -451,9 +451,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+          section: "News",},{id: "projects-patent-document-re-ranking-with-dense-and-cross-encoders",
+          title: 'Patent Document Re-ranking with Dense and Cross-Encoders',
+          description: "Neural information retrieval pipeline for patent search using dense embeddings, cross-encoder re-ranking, and evaluation on IR benchmarks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
