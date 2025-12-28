@@ -9,7 +9,8 @@ category: work
 giscus_comments: true
 
 links:
-  github: "https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan"
+github: "https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan"
+
 ---
 
 <div class="container mt-5">
