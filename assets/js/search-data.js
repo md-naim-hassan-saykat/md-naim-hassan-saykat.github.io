@@ -451,9 +451,14 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-patent-document-re-ranking-with-dense-and-cross-encoders",
-          title: 'Patent Document Re-ranking with Dense and Cross-Encoders',
-          description: "Neural information retrieval pipeline for patent search using dense embeddings, cross-encoder re-ranking, and evaluation on IR benchmarks.",
+          section: "News",},{id: "projects-skin-lesion-classification-with-deep-learning-ensemble",
+          title: 'Skin Lesion Classification with Deep Learning Ensemble',
+          description: "Generalizable ensemble framework for automated skin lesion classification using multiple deep learning architectures (CNN, ResNet, DenseNet, EfficientNet, ConvNeXt, MobileNet, ViT).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-multi-task-learning-for-emotion-recognition",
+          title: 'Multi-Task Learning for Emotion Recognition',
+          description: "Multi-task deep learning framework for simultaneous emotion detection across speech signals and text data using shared representations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
