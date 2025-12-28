@@ -1,81 +1,69 @@
-≈---
-layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+---
+layout: project
+title: "Multi-Task Learning for Emotion Recognition"
+subtitle: "Speech & Text Analysis · Natural Language Processing"
+description: "Multi-task deep learning framework for simultaneous emotion detection across speech signals and text data using shared representations."
+img: /assets/img/emotion-cover.jpg
 importance: 3
 category: work
+giscus_comments: true
+
+links:
+  github: "https://github.com/md-naim-hassan-saykat/multi-task-learning-emotion-recognition"
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="container mt-5">
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+  <div class="col-lg-10 mx-auto">
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<p class="lead mb-4">
+This project implements a <strong>multi-task learning framework</strong> for <strong>emotion recognition</strong> across modalities.
+The system simultaneously processes <strong>speech signals</strong> and <strong>text data</strong> to predict emotional states with shared learned representations,
+improving generalization and robustness across input domains.
+</p>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<hr class="my-5">
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<h2 class="h3 mb-4">Architecture Overview</h2>
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="card border-0 shadow-sm mb-4">
+  <div class="card-body">
+    <h5 class="card-title">Model Components</h5>
+    <ul class="mb-0">
+      <li><strong>Speech Module:</strong> Mel-spectrogram feature extraction + CNN/RNN encoder</li>
+      <li><strong>Text Module:</strong> Token embeddings + Transformer-based encoder</li>
+      <li><strong>Shared Representation:</strong> Joint embedding space for multi-task learning</li>
+      <li><strong>Task Heads:</strong> Independent classifiers for speech emotion & text emotion</li>
+    </ul>
   </div>
 </div>
-```
 
-{% endraw %}
+<hr class="my-5">
+
+<h2 class="h3 mb-4">Key Features</h2>
+
+<div class="card border-0 bg-light mb-4">
+  <div class="card-body">
+    <ul class="mb-0">
+      <li>Multi-modal fusion with attention mechanisms</li>
+      <li>Cross-task auxiliary learning for improved generalization</li>
+      <li>Balanced loss weighting across emotion classes</li>
+      <li>End-to-end training with gradient balancing</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="my-5">
+
+<h2 class="h3 mb-4">Results</h2>
+
+<p class="mb-4">
+The multi-task framework achieved competitive accuracy across both speech and text modalities, with improved robustness compared to single-task baselines.
+Shared representations enabled better handling of noisy or incomplete inputs.
+</p>
+
+  </div>
+</div>
+
+</div>
