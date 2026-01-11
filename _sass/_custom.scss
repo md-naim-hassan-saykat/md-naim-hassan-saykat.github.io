@@ -1,10 +1,44 @@
+<<<<<<< HEAD
 /* Uniform project-card cover images */
+=======
+<<<<<<< HEAD
+/* ================================
+   Uniform project card images
+   ================================ */
+
+=======
+/* Uniform project-card cover images */
+>>>>>>> d79884e (Add custom SCSS for uniform project card images)
+>>>>>>> d1b543a (Add custom SCSS for uniform project card images)
 .card-img-top,
 .project .card-img-top,
 .projects .card-img-top {
   width: 100%;
+<<<<<<< HEAD
   height: 190px; /* adjust 170–220px */
+=======
+<<<<<<< HEAD
+  height: 190px; /* adjust 170–220px if needed */
+>>>>>>> f103ec8 (aDD custom SCSS for uniform project card images)
   object-fit: cover;
   object-position: center;
   border-radius: 0.5rem;
+=======
+<<<<<<< HEAD
+  height: 190px; /* adjust 170–220px */
+  object-fit: cover;
+  object-position: center;
+=======
+<<<<<<< HEAD
+  height: 190px;        /* 180–220px also works well */
+  object-fit: cover;   /* ensures uniform cropping */
+  object-position: center;
+  border-radius: 0.5rem;
+=======
+  height: 190px;      /* adjust 170–220px */
+  object-fit: cover;
+  object-position: center;
+>>>>>>> d79884e (Add custom SCSS for uniform project card images)
+>>>>>>> d1b543a (Add custom SCSS for uniform project card images)
+>>>>>>> 3326585 (Add custom SCSS for uniform project card images)
 }
