@@ -2,12 +2,11 @@
 layout: project
 title: "Patent Retrieval & Re-ranking (Dense + Cross-Encoders)"
 subtitle: "Information Retrieval · Dense Retrieval · Cross-Encoder Re-ranking"
-description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re-ranking, evaluated using standard IR metrics (Recall@k, MAP, MRR/Mean Rank)."
-img: /assets/img/ir-patent-cover.jpg
+description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re-ranking, evaluated using standard IR metrics."
+img: /assets/img/2.jpg
 importance: 2
 category: work
 giscus_comments: true
-
 links:
   github: "https://github.com/md-naim-hassan-saykat/ir-patent-reranking"
 ---
