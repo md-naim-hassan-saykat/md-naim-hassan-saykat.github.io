@@ -2,7 +2,7 @@
 layout: page
 title: "Skin Cancer Classification (CNN Baselines)"
 description: "CNN-based skin lesion classification framework for melanoma/lesion prediction using dermoscopic datasets."
-img: assets/img/projects/skin-cancer-cnn/cover.jpg
+img: assets/img/5.jpg
 importance: 5
 category: work
 github: https://github.com/md-naim-hassan-saykat/skin-cancer-cnn
