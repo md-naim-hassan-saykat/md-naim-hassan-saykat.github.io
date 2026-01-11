@@ -463,7 +463,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-cyclegan-horse-zebra-unpaired-image-translation",
           title: 'CycleGAN: Horse ↔ Zebra (Unpaired Image Translation)',
-          description: "PyTorch CycleGAN for unpaired image-to-image translation with quantitative evaluation (e.g., SSIM/PSNR).",
+          description: "PyTorch implementation of CycleGAN for unpaired image-to-image translation, with qualitative results and quantitative evaluation using SSIM and PSNR.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-emotion-recognition-from-text-ml-transformers",
