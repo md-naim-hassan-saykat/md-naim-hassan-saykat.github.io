@@ -468,7 +468,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-emotion-recognition-from-text-ml-transformers",
           title: 'Emotion Recognition from Text (ML + Transformers)',
-          description: "Emotion classification pipeline with classical ML baselines and transformer models; experiments + analysis.",
+          description: "Comprehensive emotion recognition pipeline combining classical machine learning baselines with transformer-based models, evaluated on a standard emotion dataset.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-skin-cancer-classification-cnn-baselines",
