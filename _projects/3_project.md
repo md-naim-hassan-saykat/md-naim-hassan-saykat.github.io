@@ -11,6 +11,7 @@ github: https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan
 Implementation of CycleGAN for unpaired image-to-image translation.
 
 **Highlights**
+
 - PyTorch training pipeline
 - Qualitative results + quantitative evaluation (SSIM/PSNR)
 - Suitable as a reproducible course/research project

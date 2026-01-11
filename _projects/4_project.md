@@ -11,6 +11,7 @@ github: https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp
 Emotion recognition from tweets using traditional ML baselines and transformer-based models.
 
 **Highlights**
+
 - Strong baselines (LR/SVM/RF)
 - Transformer fine-tuning + comparison
 - Clear evaluation + plots

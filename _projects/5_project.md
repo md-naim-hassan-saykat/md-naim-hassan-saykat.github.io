@@ -11,6 +11,7 @@ github: https://github.com/md-naim-hassan-saykat/skin-cancer-cnn
 CNN baselines for skin lesion classification with training/evaluation notebooks.
 
 **Highlights**
+
 - Data pipeline + training loops
 - Metrics + confusion matrix + explainability (if included)
 - Foundation for larger ensemble work

@@ -76,8 +76,8 @@ links:
         <div class="col-md-5">
           <div class="text-center">
             <h6 class="text-uppercase text-muted small fw-bold mb-3">Re-ranking Impact</h6>
-            {% include figure.liquid 
-               path="assets/img/ir-rerank-impact.jpg" 
+            {% include figure.liquid
+               path="assets/img/ir-rerank-impact.jpg"
                title="Ranking improvement after cross-encoder re-ranking"
                class="img-fluid rounded shadow" %}
           </div>
@@ -86,8 +86,8 @@ links:
         <div class="col-md-5">
           <div class="text-center">
             <h6 class="text-uppercase text-muted small fw-bold mb-3">Metrics Comparison</h6>
-            {% include figure.liquid 
-               path="assets/img/ir-metrics-comparison.jpg" 
+            {% include figure.liquid
+               path="assets/img/ir-metrics-comparison.jpg"
                title="Recall/MAP/MRR comparison across models"
                class="img-fluid rounded shadow" %}
           </div>
@@ -111,6 +111,7 @@ links:
       </p>
 
     </div>
+
   </div>
 
 </div>
