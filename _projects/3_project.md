@@ -1,69 +1,18 @@
 ---
-layout: project
-title: "Multi-Task Learning for Emotion Recognition"
-subtitle: "Speech & Text Analysis · Natural Language Processing"
-description: "Multi-task deep learning framework for simultaneous emotion detection across speech signals and text data using shared representations."
-img: /assets/img/emotion-cover.jpg
+layout: page
+title: "CycleGAN: Horse ↔ Zebra (Unpaired Image Translation)"
+description: "PyTorch CycleGAN for unpaired image-to-image translation with quantitative evaluation (e.g., SSIM/PSNR)."
+img: assets/img/projects/cyclegan-horse-zebra/cover.jpg
 importance: 3
 category: work
-giscus_comments: true
-
-links:
-  github: "https://github.com/md-naim-hassan-saykat/multi-task-learning-emotion-recognition"
+github: https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan
 ---
 
-<div class="container mt-5">
+Implementation of CycleGAN for unpaired image-to-image translation.
 
-<div class="row">
-  <div class="col-lg-10 mx-auto">
+**Highlights**
+- PyTorch training pipeline
+- Qualitative results + quantitative evaluation (SSIM/PSNR)
+- Suitable as a reproducible course/research project
 
-<p class="lead mb-4">
-This project implements a <strong>multi-task learning framework</strong> for <strong>emotion recognition</strong> across modalities.
-The system simultaneously processes <strong>speech signals</strong> and <strong>text data</strong> to predict emotional states with shared learned representations,
-improving generalization and robustness across input domains.
-</p>
-
-<hr class="my-5">
-
-<h2 class="h3 mb-4">Architecture Overview</h2>
-
-<div class="card border-0 shadow-sm mb-4">
-  <div class="card-body">
-    <h5 class="card-title">Model Components</h5>
-    <ul class="mb-0">
-      <li><strong>Speech Module:</strong> Mel-spectrogram feature extraction + CNN/RNN encoder</li>
-      <li><strong>Text Module:</strong> Token embeddings + Transformer-based encoder</li>
-      <li><strong>Shared Representation:</strong> Joint embedding space for multi-task learning</li>
-      <li><strong>Task Heads:</strong> Independent classifiers for speech emotion & text emotion</li>
-    </ul>
-  </div>
-</div>
-
-<hr class="my-5">
-
-<h2 class="h3 mb-4">Key Features</h2>
-
-<div class="card border-0 bg-light mb-4">
-  <div class="card-body">
-    <ul class="mb-0">
-      <li>Multi-modal fusion with attention mechanisms</li>
-      <li>Cross-task auxiliary learning for improved generalization</li>
-      <li>Balanced loss weighting across emotion classes</li>
-      <li>End-to-end training with gradient balancing</li>
-    </ul>
-  </div>
-</div>
-
-<hr class="my-5">
-
-<h2 class="h3 mb-4">Results</h2>
-
-<p class="mb-4">
-The multi-task framework achieved competitive accuracy across both speech and text modalities, with improved robustness compared to single-task baselines.
-Shared representations enabled better handling of noisy or incomplete inputs.
-</p>
-
-  </div>
-</div>
-
-</div>
+**Repository:** {{ page.github }}
