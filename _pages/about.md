@@ -6,7 +6,7 @@ subtitle: Artificial Intelligence Researcher · Computer Vision · Medical Imagi
 
 profile:
   align: right
-  image: /assets/img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>Université Paris-Saclay</p>
