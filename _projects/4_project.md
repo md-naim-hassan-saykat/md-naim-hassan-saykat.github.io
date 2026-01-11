@@ -2,7 +2,7 @@
 layout: page
 title: "Emotion Recognition from Text (ML + Transformers)"
 description: "Emotion classification pipeline with classical ML baselines and transformer models; experiments + analysis."
-img: assets/img/projects/emotion-nlp/cover.jpg
+img: /assets/img/3.jpg
 importance: 4
 category: work
 github: https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp
