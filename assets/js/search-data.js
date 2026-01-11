@@ -456,41 +456,26 @@ ninja.data = [{
           description: "Generalizable ensemble framework for automated skin lesion classification using multiple deep learning architectures (CNN, ResNet, DenseNet, EfficientNet, ConvNeXt, MobileNet, ViT).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-multi-task-learning-for-emotion-recognition",
-          title: 'Multi-Task Learning for Emotion Recognition',
-          description: "Multi-task deep learning framework for simultaneous emotion detection across speech signals and text data using shared representations.",
+            },},{id: "projects-patent-retrieval-amp-re-ranking-dense-cross-encoders",
+          title: 'Patent Retrieval &amp;amp; Re-ranking (Dense + Cross-Encoders)',
+          description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re-ranking, evaluated using standard IR metrics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-cyclegan-horse-zebra-unpaired-image-translation",
+          title: 'CycleGAN: Horse ↔ Zebra (Unpaired Image Translation)',
+          description: "PyTorch CycleGAN for unpaired image-to-image translation with quantitative evaluation (e.g., SSIM/PSNR).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-emotion-recognition-from-text-ml-transformers",
+          title: 'Emotion Recognition from Text (ML + Transformers)',
+          description: "Emotion classification pipeline with classical ML baselines and transformer models; experiments + analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-skin-cancer-classification-cnn-baselines",
+          title: 'Skin Cancer Classification (CNN Baselines)',
+          description: "CNN-based skin lesion classification framework for melanoma/lesion prediction using dermoscopic datasets.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
