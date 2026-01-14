@@ -7,11 +7,10 @@ nav: true
 nav_order: 3
 ---
 
-## Manuscripts Under Review
-
-**Generalizable Ensemble Deep Learning for Skin Lesion Classification**  
-*Md Naim Hassan Saykat*, et al.  
-Under review, 2025.
+## Manuscripts under review
+- **Generalizable Ensemble Deep Learning for Skin Lesion Classification: Internal and External Validation on HAM10000 and ISIC 2019**  
+  *Under review*, 2026.  
+  Links: (GitHub) (Preprint, if available)
 
 - Multi-model ensemble (CNN, ResNet, DenseNet, EfficientNet, ConvNeXt, ViT)
 - Internal validation on HAM10000, external validation on ISIC 2019
@@ -21,9 +20,11 @@ Under review, 2025.
 
 ---
 
-## Preprints & Technical Reports
+## Preprints
+- *(Add later when available)*
 
-*To be added.*
+## Open-source research artifacts
+See **Repositories** for code, experiments, and reproducibility materials.
 
 ---
 
