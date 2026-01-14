@@ -3,6 +3,8 @@ layout: page
 title: repositories
 permalink: /repositories/
 description: "Selected GitHub repositories (research, projects, and implementations)."
+nav: true
+nav_order: 4
 ---
 
 <div class="container mt-4 repo-grid">
