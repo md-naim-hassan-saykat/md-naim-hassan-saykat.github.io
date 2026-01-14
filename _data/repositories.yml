@@ -1,4 +1,8 @@
-github_users: []
+github_users:
+  - md-naim-hassan-saykat
+
+repo_description_lines_max: 2
+
 github_repos:
   - md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000
   - md-naim-hassan-saykat/skin-cancer-cnn
