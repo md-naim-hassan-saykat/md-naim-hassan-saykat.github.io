@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - md-naim-hassan-saykat
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000
+  - md-naim-hassan-saykat/skin-cancer-cnn
+  - md-naim-hassan-saykat/ir-patent-reranking
+  - md-naim-hassan-saykat/horse-to-zebra-cyclegan
+  - md-naim-hassan-saykat/emotion-recognition-nlp
+  - md-naim-hassan-saykat/grain-1-generalization-ai-challenge
