@@ -1,9 +1,21 @@
-/* Uniform project card images */
-.projects .card-img-top,
-.projects .project-img,
-.projects .project-image img,
-.projects .card img {
+/* --- Projects grid: uniform card thumbnails --- */
+.project-thumb {
   width: 100%;
-  height: 220px;        /* adjust: 200–260px */
-  object-fit: cover;
+  height: 220px;        /* adjust: 200–280 */
+  object-fit: cover;    /* crop nicely to same size */
+  display: block;
+}
+
+/* Keep card heights consistent */
+.projects .card {
+  height: 100%;
+}
+
+.projects .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects .card-text {
+  flex-grow: 1;
 }
