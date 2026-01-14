@@ -1,0 +1,29 @@
+/* =========================
+   PROJECTS PAGE FIX
+   ========================= */
+
+/* Project card container */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Image wrapper */
+.project-card img {
+  width: 100%;
+  height: 220px;            /* uniform image height */
+  object-fit: cover;        /* crops nicely */
+  border-radius: 6px;
+}
+
+/* Optional: larger featured project image */
+.project-card.featured img {
+  height: 300px;            /* larger image for Project 2 */
+}
+
+/* Text spacing consistency */
+.project-card .card-body {
+  flex-grow: 1;
+  padding-top: 1rem;
+}
