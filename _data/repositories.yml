@@ -1,10 +1,7 @@
-github_users:
-  - md-naim-hassan-saykat
-
+github_users: []
 github_repos:
   - md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000
   - md-naim-hassan-saykat/skin-cancer-cnn
   - md-naim-hassan-saykat/ir-patent-reranking
   - md-naim-hassan-saykat/horse-to-zebra-cyclegan
   - md-naim-hassan-saykat/emotion-recognition-nlp
-  - md-naim-hassan-saykat/grain-1-generalization-ai-challenge
