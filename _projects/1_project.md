@@ -3,7 +3,7 @@ layout: page
 title: "Skin Lesion Classification with Deep Learning Ensembles"
 subtitle: "Medical Imaging · Melanoma Detection · Explainable AI"
 description: "A generalizable ensemble deep learning framework for automated skin lesion classification, integrating CNNs, modern convolutional architectures, and Vision Transformers with internal and external validation."
-img: /assets/img/skin-lesion-cover.jpg
+img: /assets/img/1.jpg
 importance: 1
 category: work
 giscus_comments: true
