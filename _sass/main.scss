@@ -1,0 +1,7 @@
+/* Make project thumbnails consistent */
+.project-thumb {
+  width: 100%;
+  height: 210px;        /* choose 180–260px depending on taste */
+  object-fit: cover;    /* crop nicely */
+  display: block;
+}
