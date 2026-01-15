@@ -1,19 +1,14 @@
-/* ===== NAVBAR: solid, clean, no overlap ===== */
-.navbar {
-  position: sticky;
-  top: 0;
-  background-color: var(--global-bg-color) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  z-index: 1100;
+/* ===== FOOTER ===== */
+.site-footer,
+footer {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
 }
 
-/* Page offset for sticky navbar */
-main,
-.page-content {
-  padding-top: 2.5rem;
-}
-
-/* Dark mode */
-html[data-theme="dark"] .navbar {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+html[data-theme="dark"] .site-footer,
+html[data-theme="dark"] footer {
+  color: rgba(255, 255, 255, 0.6);
 }
