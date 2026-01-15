@@ -48,10 +48,16 @@
 
       <div class="project-footer mt-3">
         {% if project.github %}
-          <a class="footer-link" href="{{ project.github }}" target="_blank" rel="noopener">
-            <i class="fa-brands fa-github"></i> Code
-          </a>
-        {% endif %}
+  <div class="project-footer mt-3">
+    <a class="footer-link"
+       href="{{ project.github }}"
+       target="_blank"
+       rel="noopener">
+      <i class="fa-brands fa-github"></i>
+      <span>View on GitHub</span>
+    </a>
+  </div>
+{% endif %}
 
         {% if project.paper %}
           <a class="footer-link" href="{{ project.paper }}" target="_blank" rel="noopener">
