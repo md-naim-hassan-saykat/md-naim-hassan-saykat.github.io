@@ -1,14 +1,15 @@
 /* ===== FOOTER ===== */
-.site-footer,
-footer {
+footer[role="contentinfo"] {
   margin-top: 4rem;
   padding: 2rem 1rem;
   text-align: center;
   font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--global-bg-color);
 }
 
-html[data-theme="dark"] .site-footer,
-html[data-theme="dark"] footer {
+html[data-theme="dark"] footer[role="contentinfo"] {
   color: rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
