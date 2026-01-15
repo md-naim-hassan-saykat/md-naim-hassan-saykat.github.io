@@ -418,7 +418,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-skin-lesion-classification-with-deep-learning-ensembles",
           title: 'Skin Lesion Classification with Deep Learning Ensembles',
-          description: "A generalizable ensemble deep learning framework for automated skin lesion classification, integrating CNNs, modern convolutional architectures, and Vision Transformers with internal and external validation.",
+          description: "A generalizable ensemble deep learning framework for automated skin lesion classification, integrating CNNs and ViTs with internal + external validation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-patent-retrieval-amp-re-ranking-dense-cross-encoders",
