@@ -1,69 +1,14 @@
-/* --- Project cards (Projects page) --- */
-.project-card {
-  border: 1px solid rgba(0,0,0,.08);
-  border-radius: 16px;
-  overflow: hidden;
+/* --- Fix navbar overlap + make it solid while scrolling --- */
+.navbar {
+  background-color: var(--global-bg-color) !important; /* works for light/dark */
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  z-index: 1030; /* keep it above cards */
 }
 
-.project-thumb {
-  width: 100%;
-  height: 220px;        /* uniform image height */
-  object-fit: cover;
-  display: block;
+body {
+  padding-top: 80px; /* space for fixed navbar */
 }
 
-.project-title {
-  font-size: 1.35rem;
-  line-height: 1.2;
-  margin-bottom: .35rem;
-}
-
-.project-title-link {
-  text-decoration: none;
-}
-
-.project-subtitle {
-  font-size: .92rem;
-  opacity: .75;
-}
-
-.project-desc {
-  font-size: .95rem;
-  opacity: .9;
-}
-
-.project-footer {
-  border-top: 1px solid rgba(0,0,0,.08);
-  padding-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.project-gh-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.project-gh-link i {
-  font-size: 1.1rem;
-}
-
-.project-stars {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  opacity: .85;
-}
-
-/* Repository cards */
-.repo-grid .repo-cover {
-  width: 100%;
-  height: 170px;
-  object-fit: cover;
-  object-position: center;
+@media (max-width: 991px) {
+  body { padding-top: 72px; }
 }
