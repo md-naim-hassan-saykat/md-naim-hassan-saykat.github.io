@@ -10,7 +10,11 @@ giscus_comments: true
 
 year: 2026
 status: "Under review"
-tags: ["Medical Imaging", "Deep Ensembles", "External Validation", "Grad-CAM"]
+tags:
+  - Medical Imaging
+  - Deep Ensembles
+  - Grad-CAM
+subtitle: "Medical Imaging · Melanoma Detection · Explainable AI"
 
 links:
   github: "https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
