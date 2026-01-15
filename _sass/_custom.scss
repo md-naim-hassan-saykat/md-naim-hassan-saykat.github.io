@@ -1,12 +1,12 @@
 /* --- Fix navbar overlap + make it solid while scrolling --- */
 .navbar {
-  background-color: var(--global-bg-color) !important; /* works for light/dark */
+  background-color: var(--global-bg-color) !important;
   border-bottom: 1px solid rgba(0,0,0,.06);
-  z-index: 1030; /* keep it above cards */
+  z-index: 1030;
 }
 
 body {
-  padding-top: 80px; /* space for fixed navbar */
+  padding-top: 80px;
 }
 
 @media (max-width: 991px) {
