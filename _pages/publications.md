@@ -91,7 +91,7 @@ nav_order: 3
     </h5>
 
     <p class="text-muted mb-2">
-      Target submission: 2026-27 academic year
+      Manuscript in preparation . Target submission: 2026-27 academic year
     </p>
 
     <p class="card-text">
