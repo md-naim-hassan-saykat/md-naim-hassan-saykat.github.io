@@ -17,9 +17,9 @@ tags:
 subtitle: "Medical Imaging · Melanoma Detection · Explainable AI"
 
 links:
-  github: "https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
-  project: "/projects/"
-  manuscript: "/publications/#skin-lesion-ensemble"
+ doi: "https://doi.org/10.5281/zenodo.17390952"
+ paper: "https://zenodo.org/records/17390952"
+ github: "https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
 ---
 
 <div class="container mt-5">
