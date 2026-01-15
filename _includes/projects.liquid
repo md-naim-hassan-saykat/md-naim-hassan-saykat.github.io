@@ -1,48 +1,65 @@
 <div class="col">
-  <div class="card h-100 hoverable">
-    
-    {% if project.img %}
-  {%
-    include figure.liquid
-    loading="eager"
-    path=project.img
-    sizes="(min-width: 992px) 380px, (min-width: 768px) 50vw, 100vw"
-    alt="project thumbnail"
-    class="card-img-top project-thumb"
-  %}
-{% endif %}
+  <a class="project-card-link"
+     href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
 
-    <div class="card-body d-flex flex-column">
-      <h2 class="card-title">
-        <a class="stretched-link"
-           href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-          {{ project.title }}
-        </a>
-      </h2>
+    <div class="project-card h-100">
 
-      <p class="card-text flex-grow-1">
-        {{ project.description }}
-      </p>
+      {% if project.img %}
+      <div class="project-thumb-wrap">
+        {% include figure.liquid
+          loading="eager"
+          path=project.img
+          alt="project thumbnail"
+          class="project-thumb"
+        %}
 
-      {% if project.github %}
-      <div class="row ml-1 mr-1 p-0 mt-2">
-        <div class="github-icon">
-          <div class="icon" data-toggle="tooltip" title="Code Repository">
-            <a href="{{ project.github }}" target="_blank" rel="noopener">
-              <i class="fa-brands fa-github gh-icon"></i>
-            </a>
-          </div>
-
-          {% if project.github_stars %}
-            <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-              <i class="fa-solid fa-star"></i>
-              <span id="{{ project.github_stars }}-stars"></span>
-            </span>
+        {% if project.year or project.status %}
+        <div class="project-meta">
+          {% if project.year %}
+            <span class="pill">{{ project.year }}</span>
+          {% endif %}
+          {% if project.status %}
+            <span class="pill pill-status">{{ project.status }}</span>
           {% endif %}
         </div>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="card-body d-flex flex-column">
+
+        <h3 class="project-title">
+          {{ project.title }}
+        </h3>
+
+        {% if project.subtitle %}
+          <div class="project-subtitle">{{ project.subtitle }}</div>
+        {% endif %}
+
+        <p class="project-desc flex-grow-1">
+          {{ project.description }}
+        </p>
+
+        {% if project.tags %}
+        <div class="tag-row">
+          {% for tag in project.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+      </div>
+
+      {% if project.links.github %}
+      <div class="project-footer">
+        <a class="footer-link"
+           href="{{ project.links.github }}"
+           target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> Code
+        </a>
       </div>
       {% endif %}
 
     </div>
-  </div>
+  </a>
 </div>
