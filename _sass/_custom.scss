@@ -1,20 +1,19 @@
-/* --- Fix navbar overlap + keep it solid while scrolling --- */
+/* ===== NAVBAR: solid, clean, no overlap ===== */
 .navbar {
+  position: sticky;
+  top: 0;
   background-color: var(--global-bg-color) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  z-index: 1030;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  z-index: 1100;
 }
 
-/* If your navbar is fixed/sticky, the page needs top padding */
-body {
-  padding-top: 80px;
+/* Page offset for sticky navbar */
+main,
+.page-content {
+  padding-top: 2.5rem;
 }
 
-@media (max-width: 991px) {
-  body { padding-top: 72px; }
-}
-
-/* Dark mode border (prevents ugly bright border in dark mode) */
+/* Dark mode */
 html[data-theme="dark"] .navbar {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
