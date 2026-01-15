@@ -91,7 +91,7 @@ nav_order: 3
     </h5>
 
     <p class="text-muted mb-2">
-      Manuscript in preparation · Target submission: 2025
+      Target submission: 2026
     </p>
 
     <p class="card-text">
