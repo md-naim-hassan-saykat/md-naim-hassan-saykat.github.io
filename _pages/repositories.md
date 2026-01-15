@@ -9,27 +9,48 @@ nav_order: 4
 
 <div class="container mt-4 repo-grid">
 
-  <p class="lead mb-4">
-    A curated selection of my work — research prototypes, reproducible experiments, and end-to-end implementations.
-  </p>
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-2 mb-4">
+    <div>
+      <p class="lead mb-1">
+        Selected work: research prototypes, reproducible experiments, and end-to-end implementations.
+      </p>
+      <p class="text-muted mb-0">
+        For more, visit my GitHub profile:
+        <a href="https://github.com/md-naim-hassan-saykat" target="_blank" rel="noopener">github.com/md-naim-hassan-saykat</a>
+      </p>
+    </div>
+  </div>
 
   <div class="row g-4">
 
     <!-- 1 -->
     <div class="col-md-6 col-lg-4">
-      <div class="card h-100 shadow-sm border-0">
+      <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000" target="_blank" rel="noopener">
           <img class="card-img-top repo-cover"
                src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
                alt="Skin Lesion Classification Ensemble">
         </a>
         <div class="card-body">
-          <h5 class="card-title mb-2">Skin Lesion Classification (Ensemble)</h5>
-          <p class="card-text text-muted mb-3">
-            Multi-model ensemble (CNN, ResNet, DenseNet, EfficientNet, ConvNeXt, MobileNet, ViT) with external validation + Grad-CAM.
+          <div class="d-flex justify-content-between align-items-start gap-2">
+            <h5 class="card-title mb-2">Skin Lesion Classification (Ensemble)</h5>
+            <span class="badge text-bg-primary">Medical Imaging</span>
+          </div>
+
+          <p class="card-text text-muted repo-desc">
+            Multi-model ensemble (CNN/ResNet/DenseNet/EfficientNet/ConvNeXt/MobileNet/ViT) with external validation + Grad-CAM.
           </p>
+
+          <div class="repo-tags mb-3">
+            <span class="badge rounded-pill text-bg-light">HAM10000</span>
+            <span class="badge rounded-pill text-bg-light">ISIC 2019</span>
+            <span class="badge rounded-pill text-bg-light">Explainability</span>
+            <span class="badge rounded-pill text-bg-light">PyTorch</span>
+          </div>
+
           <a class="btn btn-sm btn-outline-primary"
-             href="https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000" target="_blank" rel="noopener">
+             href="https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
+             target="_blank" rel="noopener">
             View on GitHub →
           </a>
         </div>
@@ -38,17 +59,28 @@ nav_order: 4
 
     <!-- 2 -->
     <div class="col-md-6 col-lg-4">
-      <div class="card h-100 shadow-sm border-0">
+      <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/skin-cancer-cnn" target="_blank" rel="noopener">
           <img class="card-img-top repo-cover"
                src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/skin-cancer-cnn"
                alt="Skin Cancer CNN Baseline">
         </a>
         <div class="card-body">
-          <h5 class="card-title mb-2">Skin Cancer Classification (CNN Baseline)</h5>
-          <p class="card-text text-muted mb-3">
-            Strong baseline pipeline for dermoscopic image classification with training, evaluation, and explainability.
+          <div class="d-flex justify-content-between align-items-start gap-2">
+            <h5 class="card-title mb-2">Skin Cancer Classification (CNN Baseline)</h5>
+            <span class="badge text-bg-primary">Medical Imaging</span>
+          </div>
+
+          <p class="card-text text-muted repo-desc">
+            Strong baseline for dermoscopic image classification with training, evaluation, and interpretability workflow.
           </p>
+
+          <div class="repo-tags mb-3">
+            <span class="badge rounded-pill text-bg-light">CNN</span>
+            <span class="badge rounded-pill text-bg-light">Grad-CAM</span>
+            <span class="badge rounded-pill text-bg-light">Reproducible</span>
+          </div>
+
           <a class="btn btn-sm btn-outline-primary"
              href="https://github.com/md-naim-hassan-saykat/skin-cancer-cnn" target="_blank" rel="noopener">
             View on GitHub →
@@ -59,17 +91,28 @@ nav_order: 4
 
     <!-- 3 -->
     <div class="col-md-6 col-lg-4">
-      <div class="card h-100 shadow-sm border-0">
+      <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank" rel="noopener">
           <img class="card-img-top repo-cover"
                src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/ir-patent-reranking"
-               alt="Patent Retrieval & Reranking">
+               alt="Patent Retrieval & Re-ranking">
         </a>
         <div class="card-body">
-          <h5 class="card-title mb-2">Patent Retrieval & Re-ranking</h5>
-          <p class="card-text text-muted mb-3">
-            Dense retrieval + transformer cross-encoder reranking, evaluated with Recall@k, MAP, and MRR.
+          <div class="d-flex justify-content-between align-items-start gap-2">
+            <h5 class="card-title mb-2">Patent Retrieval & Re-ranking</h5>
+            <span class="badge text-bg-success">IR / NLP</span>
+          </div>
+
+          <p class="card-text text-muted repo-desc">
+            Dense retrieval + transformer cross-encoder re-ranking, evaluated with Recall@k, MAP, MRR.
           </p>
+
+          <div class="repo-tags mb-3">
+            <span class="badge rounded-pill text-bg-light">Dense Retrieval</span>
+            <span class="badge rounded-pill text-bg-light">Reranking</span>
+            <span class="badge rounded-pill text-bg-light">Evaluation</span>
+          </div>
+
           <a class="btn btn-sm btn-outline-primary"
              href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank" rel="noopener">
             View on GitHub →
@@ -80,17 +123,28 @@ nav_order: 4
 
     <!-- 4 -->
     <div class="col-md-6 col-lg-4">
-      <div class="card h-100 shadow-sm border-0">
+      <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan" target="_blank" rel="noopener">
           <img class="card-img-top repo-cover"
                src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/horse-to-zebra-cyclegan"
                alt="CycleGAN Horse ↔ Zebra">
         </a>
         <div class="card-body">
-          <h5 class="card-title mb-2">CycleGAN Horse ↔ Zebra</h5>
-          <p class="card-text text-muted mb-3">
-            PyTorch implementation of unpaired image-to-image translation with qualitative and quantitative evaluation.
+          <div class="d-flex justify-content-between align-items-start gap-2">
+            <h5 class="card-title mb-2">CycleGAN Horse ↔ Zebra</h5>
+            <span class="badge text-bg-warning">Computer Vision</span>
+          </div>
+
+          <p class="card-text text-muted repo-desc">
+            PyTorch implementation of unpaired image-to-image translation with qualitative + quantitative evaluation.
           </p>
+
+          <div class="repo-tags mb-3">
+            <span class="badge rounded-pill text-bg-light">CycleGAN</span>
+            <span class="badge rounded-pill text-bg-light">GANs</span>
+            <span class="badge rounded-pill text-bg-light">SSIM/PSNR</span>
+          </div>
+
           <a class="btn btn-sm btn-outline-primary"
              href="https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan" target="_blank" rel="noopener">
             View on GitHub →
@@ -101,17 +155,28 @@ nav_order: 4
 
     <!-- 5 -->
     <div class="col-md-6 col-lg-4">
-      <div class="card h-100 shadow-sm border-0">
+      <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp" target="_blank" rel="noopener">
           <img class="card-img-top repo-cover"
                src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/emotion-recognition-nlp"
                alt="Emotion Recognition NLP">
         </a>
         <div class="card-body">
-          <h5 class="card-title mb-2">Emotion Recognition (NLP)</h5>
-          <p class="card-text text-muted mb-3">
-            Classical ML baselines and transformer models for emotion classification with clean evaluation scripts.
+          <div class="d-flex justify-content-between align-items-start gap-2">
+            <h5 class="card-title mb-2">Emotion Recognition (NLP)</h5>
+            <span class="badge text-bg-success">NLP</span>
+          </div>
+
+          <p class="card-text text-muted repo-desc">
+            Classical ML baselines and transformer models for emotion classification with clear evaluation scripts.
           </p>
+
+          <div class="repo-tags mb-3">
+            <span class="badge rounded-pill text-bg-light">Transformers</span>
+            <span class="badge rounded-pill text-bg-light">Baselines</span>
+            <span class="badge rounded-pill text-bg-light">Hugging Face</span>
+          </div>
+
           <a class="btn btn-sm btn-outline-primary"
              href="https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp" target="_blank" rel="noopener">
             View on GitHub →
