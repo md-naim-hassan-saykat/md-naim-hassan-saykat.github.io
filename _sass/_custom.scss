@@ -1,20 +1,17 @@
-/* ===== NAVBAR FIX (no overlap) ===== */
-.navbar.fixed-top {
-  background: var(--global-bg-color) !important;
-  border-bottom: 1px solid rgba(0,0,0,.06);
-  z-index: 1030;
+/* ===== FOOTER ===== */
+footer[role="contentinfo"] {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--global-bg-color);
 }
 
-/* Make page content start BELOW the fixed navbar */
-body {
-  padding-top: 5.25rem; /* ~84px */
-}
+footer[role="contentinfo"] p { margin: 0; }
 
-@media (max-width: 991.98px) {
-  body { padding-top: 4.75rem; } /* ~76px */
-}
-
-/* Align navbar items nicely */
-.navbar .navbar-nav {
-  align-items: center;
+html[data-theme="dark"] footer[role="contentinfo"] {
+  color: rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
