@@ -1,19 +1,20 @@
 <div class="col">
-  <div class="card h-100 project-card shadow-sm border-0">
+  <div class="card h-100 hoverable project-card">
 
     {% if project.img %}
-      <a class="project-card-link"
-         href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-        <img
-          src="{{ project.img | relative_url }}"
-          alt="project thumbnail"
-          class="card-img-top project-thumb"
-          loading="eager">
-      </a>
+      {%
+        include figure.liquid
+        loading="eager"
+        path=project.img
+        sizes="(min-width: 992px) 380px, (min-width: 768px) 50vw, 100vw"
+        alt="project thumbnail"
+        class="card-img-top project-thumb"
+      %}
     {% endif %}
 
-    <div class="card-body d-flex flex-column">
-      <h2 class="card-title project-title mb-2">
+    <div class="card-body d-flex flex-column project-body">
+
+      <h2 class="card-title project-title">
         <a class="stretched-link project-title-link"
            href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
           {{ project.title }}
@@ -21,23 +22,30 @@
       </h2>
 
       {% if project.subtitle %}
-        <div class="project-subtitle mb-2">{{ project.subtitle }}</div>
+        <p class="project-subtitle mb-2">{{ project.subtitle }}</p>
       {% endif %}
 
       <p class="card-text project-desc flex-grow-1">
         {{ project.description }}
       </p>
 
-      <div class="project-footer mt-3">
-        {% if project.github %}
-          <a class="footer-link"
-             href="{{ project.github }}"
-             target="_blank" rel="noopener">
+      {% if project.github %}
+        <div class="project-footer mt-3">
+          <a class="project-gh-link"
+             href="{{ project.github }}" target="_blank" rel="noopener">
             <i class="fa-brands fa-github"></i>
             <span>View on GitHub</span>
           </a>
-        {% endif %}
-      </div>
+
+          {% if project.github_stars %}
+            <span class="project-stars" data-toggle="tooltip" title="GitHub Stars">
+              <i class="fa-solid fa-star"></i>
+              <span id="{{ project.github_stars }}-stars"></span>
+            </span>
+          {% endif %}
+        </div>
+      {% endif %}
+
     </div>
   </div>
 </div>
