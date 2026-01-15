@@ -1,51 +1,69 @@
-/* --- Projects grid: consistent, professional cards --- */
-.project-card-link { text-decoration: none; }
-
+/* --- Project cards (Projects page) --- */
 .project-card {
-  border-radius: 18px;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 16px;
   overflow: hidden;
 }
 
 .project-thumb {
   width: 100%;
-  height: 220px;          /* same height for all thumbnails */
-  object-fit: cover;      /* no stretching */
-  object-position: center;
+  height: 220px;        /* uniform image height */
+  object-fit: cover;
   display: block;
 }
 
 .project-title {
-  font-size: 1.25rem;
-  line-height: 1.25;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin-bottom: .35rem;
 }
 
 .project-title-link {
   text-decoration: none;
 }
 
-.project-title-link:hover {
-  text-decoration: underline;
-}
-
 .project-subtitle {
-  font-size: 0.92rem;
-  opacity: 0.75;
+  font-size: .92rem;
+  opacity: .75;
 }
 
 .project-desc {
-  font-size: 0.95rem;
-  opacity: 0.9;
+  font-size: .95rem;
+  opacity: .9;
 }
 
 .project-footer {
   border-top: 1px solid rgba(0,0,0,.08);
   padding-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
-.footer-link {
+.project-gh-link {
   display: inline-flex;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
   text-decoration: none;
   font-weight: 600;
+}
+
+.project-gh-link i {
+  font-size: 1.1rem;
+}
+
+.project-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  opacity: .85;
+}
+
+/* Repository cards */
+.repo-grid .repo-cover {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  object-position: center;
 }
