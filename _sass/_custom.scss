@@ -1,7 +1,87 @@
-/* Repository cards */
-.repo-grid .repo-cover {
+/* --- Project grid cards --- */
+.project-card {
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.project-thumb-wrap { position: relative; }
+
+/* figure.liquid usually wraps the <img>, so target the img inside */
+.project-thumb,
+.project-thumb img {
   width: 100%;
-  height: 170px;      /* adjust 160–200 if you want */
-  object-fit: cover;
-  object-position: center;
+  height: 220px;         /* uniform image height */
+  object-fit: cover;     /* prevents stretching */
+  display: block;
+  margin: 0;
+}
+
+/* remove extra spacing that figure may add */
+.project-thumb figure { margin: 0; }
+
+.project-meta {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.65);
+  color: #fff;
+  backdrop-filter: blur(6px);
+}
+
+.pill-status { background: rgba(0,0,0,.55); }
+
+.project-title a {
+  color: inherit;             /* prevents everything turning blue */
+  text-decoration: none;
+}
+.project-title a:hover { text-decoration: underline; }
+
+.project-subtitle {
+  font-size: .9rem;
+  opacity: .75;
+  margin-bottom: .65rem;
+}
+
+.project-desc {
+  font-size: .95rem;
+  opacity: .9;
+}
+
+.tag-row {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.12);
+  opacity: .9;
+}
+
+.project-footer {
+  background: transparent;
+  border-top: 1px solid rgba(0,0,0,.06);
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+}
+
+.footer-link {
+  font-size: .9rem;
+  text-decoration: none;
 }
