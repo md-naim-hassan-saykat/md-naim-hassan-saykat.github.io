@@ -1,25 +1,17 @@
-<div class="col">
+<div class="col mb-4">
   <div class="card project-card h-100 hoverable">
 
     {% if project.img %}
-      <div class="project-thumb-wrap">
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          alt=project.title
-          class="project-thumb"
-        %}
-
-        <div class="project-meta">
-          {% if project.year %}
-            <span class="pill">{{ project.year }}</span>
-          {% endif %}
-          {% if project.status %}
-            <span class="pill pill-status">{{ project.status }}</span>
-          {% endif %}
-        </div>
-      </div>
+    <div class="project-thumb-wrap">
+      {%
+        include figure.liquid
+        loading="eager"
+        path=project.img
+        sizes="(min-width: 992px) 380px, (min-width: 768px) 50vw, 100vw"
+        alt="project thumbnail"
+        class="card-img-top project-thumb"
+      %}
+    </div>
     {% endif %}
 
     <div class="card-body d-flex flex-column">
@@ -38,39 +30,14 @@
         {{ project.description }}
       </p>
 
-      {% if project.tags %}
-        <div class="tag-row">
-          {% for t in project.tags %}
-            <span class="tag">{{ t }}</span>
-          {% endfor %}
+      {% if project.github %}
+        <div class="project-footer mt-3">
+          <a class="footer-link" href="{{ project.github }}" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i>
+            <span>View on GitHub</span>
+          </a>
         </div>
       {% endif %}
-
-      <div class="project-footer mt-3">
-        {% if project.github %}
-  <div class="project-footer mt-3">
-    <a class="footer-link"
-       href="{{ project.github }}"
-       target="_blank"
-       rel="noopener">
-      <i class="fa-brands fa-github"></i>
-      <span>View on GitHub</span>
-    </a>
-  </div>
-{% endif %}
-
-        {% if project.paper %}
-          <a class="footer-link" href="{{ project.paper }}" target="_blank" rel="noopener">
-            <i class="fa-regular fa-file-lines"></i> Paper
-          </a>
-        {% endif %}
-
-        {% if project.doi %}
-          <a class="footer-link" href="{{ project.doi }}" target="_blank" rel="noopener">
-            <i class="fa-solid fa-link"></i> DOI
-          </a>
-        {% endif %}
-      </div>
     </div>
 
   </div>
