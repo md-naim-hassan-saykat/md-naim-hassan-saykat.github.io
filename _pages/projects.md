@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A curated selection of research-driven projects spanning medical imaging, information retrieval, and generative deep learning, with an emphasis on reproducibility and real-world evaluation.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
