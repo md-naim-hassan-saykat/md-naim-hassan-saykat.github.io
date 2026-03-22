@@ -1,28 +1,33 @@
-/* About page profile image */
-.post .profile img,
-.profile img,
-img.profile-img {
-  width: 100%;
-  max-width: 280px !important;
+/* ===== ABOUT PAGE PROFILE SIZE FIX ===== */
+.post .profile {
+  float: right;
+  width: 300px !important;
+  max-width: 300px !important;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post .profile img {
+  width: 100% !important;
+  max-width: 100% !important;
   height: auto !important;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 10px;
   object-fit: cover;
 }
 
-/* Keep the right-side profile column compact */
-.post .profile,
-.profile {
-  max-width: 300px;
-  margin-left: auto;
-}
-
-/* Tidy the small text under the image */
-.post .profile .more-info,
-.profile .more-info {
+.post .profile .more-info {
   font-size: 0.95rem;
   line-height: 1.6;
-  margin-top: 0.75rem;
+  margin-top: 0.8rem;
+}
+
+/* Mobile: stack cleanly */
+@media (max-width: 768px) {
+  .post .profile {
+    float: none;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto 1.5rem auto;
+  }
 }
