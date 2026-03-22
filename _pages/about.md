@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
+  image_width: 300
   more_info: >
     <p>Université Paris-Saclay</p>
     <p>Orsay, Île-de-France, France</p>
