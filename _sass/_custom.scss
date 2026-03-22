@@ -1,29 +1,32 @@
-/* ===== ABOUT PAGE PROFILE IMAGE ===== */
-.profile img,
-.profile-image img {
-  width: 100%;
-  max-width: 420px;
-  height: auto;
-  border-radius: 14px;
-  object-fit: cover;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+.navbar.fixed-top {
+  background: var(--global-bg-color) !important;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  z-index: 1030;
 }
 
-/* Better spacing for the profile block */
-.profile {
-  margin-top: 0.5rem;
+body {
+  padding-top: 5.25rem;
 }
 
-.profile .more-info,
-.profile-more-info {
-  margin-top: 1rem;
-  font-size: 0.98rem;
-  line-height: 1.6;
+@media (max-width: 991.98px) {
+  body { padding-top: 4.75rem; }
 }
 
-/* Desktop: keep image aligned nicely with text */
-@media (min-width: 768px) {
-  .profile {
-    padding-left: 1.5rem;
-  }
+footer[role="contentinfo"] {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--global-bg-color);
+}
+
+footer[role="contentinfo"] p {
+  margin: 0;
+}
+
+html[data-theme="dark"] footer[role="contentinfo"] {
+  color: rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
