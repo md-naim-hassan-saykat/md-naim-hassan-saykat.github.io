@@ -1,8 +1,7 @@
 {% capture footer_contents %}
   &copy; {{ site.time | date: '%Y' }}
   {{ site.first_name }}{% if site.middle_name and site.middle_name != "" %} {{ site.middle_name }}{% endif %}
-  {{ site.last_name }}
-  {% if site.footer_text and site.footer_text != "" %} · {{ site.footer_text }}{% endif %}
+  {{ site.last_name }}{% if site.footer_text and site.footer_text != "" %} · {{ site.footer_text }}{% endif %}
   {% if site.impressum_path %} · <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>{% endif %}
   {% if site.last_updated %} · Last updated: {{ 'now' | date: '%B %d, %Y' }}{% endif %}
 {% endcapture %}
@@ -21,11 +20,5 @@
     <div class="container text-center">
       <p class="mb-0 small text-muted">{{ footer_contents }}</p>
     </div>
-  </footer>
-{% endif %}
-
-<div class="container text-center">
-  <p class="mb-0 small text-muted">{{ footer_contents }}</p>
-</div>
   </footer>
 {% endif %}
