@@ -11,20 +11,16 @@ profile:
   more_info: >
     <p>Université Paris-Saclay</p>
     <p>Orsay, Île-de-France, France</p>
-    <p>md-naim-hassan.saykat@universite-paris-saclay.fr</p>
+    <p><a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr">md-naim-hassan.saykat@universite-paris-saclay.fr</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
+  enabled: false
 ---
 
 I am **Md Naim Hassan Saykat**, an AI researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**.  
