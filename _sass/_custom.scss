@@ -1,20 +1,21 @@
 /* About page profile image */
 .post .profile {
   float: right;
-  max-width: 320px !important;
-  width: 320px !important;
+  width: 260px !important;
+  max-width: 260px !important;
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
 
-.profile-image-wrapper {
-  max-width: 220px;
-  margin-left: auto;
+.post .profile img,
+.post .profile figure,
+.post .profile .figure {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
-.profile-image-wrapper img {
-  width: 100% !important;
-  height: auto !important;
+.post .profile img {
   display: block;
   border-radius: 12px;
   object-fit: cover;
@@ -30,11 +31,7 @@
   .post .profile {
     float: none;
     width: 100% !important;
-    max-width: 320px !important;
+    max-width: 300px !important;
     margin: 0 auto 1.5rem auto;
-  }
-
-  .profile-image-wrapper {
-    max-width: 100%;
   }
 }
