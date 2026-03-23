@@ -29,8 +29,8 @@ I am currently pursuing my Master’s in Artificial Intelligence at **Universit�
 My research interests include:
 
 - **Medical Image Analysis** (dermatology, radiology, X-ray interpretation)
-- **Vision Transformers (ViT)** and **hybrid CNN–Transformer architectures**
-- **Explainable AI (XAI)** — Grad-CAM, attention mechanisms, feature attribution
+- **Vision Transformers (ViT)** and **hybrid CNN-Transformer architectures**
+- **Explainable AI (XAI)** Grad-CAM, attention mechanisms, feature attribution
 - **Domain adaptation & cross-dataset generalization** (e.g., HAM10000 → ISIC 2019)
 - **Edge-efficient and deployable AI** for resource-constrained clinical settings
 
