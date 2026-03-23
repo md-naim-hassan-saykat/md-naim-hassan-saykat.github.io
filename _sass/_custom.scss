@@ -1,10 +1,15 @@
 /* About page profile image */
 .post .profile {
   float: right;
-  width: 400px !important;        /* slightly larger */
+  width: 400px !important;
   max-width: 400px !important;
   margin-left: 2rem;
   margin-bottom: 1.2rem;
+}
+
+/* FIX: prevent text overlap */
+.post {
+  overflow: auto;   /* clears float properly */
 }
 
 /* Image styling */
@@ -17,9 +22,9 @@
 
 .post .profile img {
   display: block;
-  border-radius: 14px;            /* smoother corners */
+  border-radius: 14px;
   object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
 /* Info text */
@@ -27,7 +32,7 @@
   font-size: 0.92rem;
   line-height: 1.55;
   margin-top: 0.9rem;
-  color: #555;                   /* softer text */
+  color: #555;
 }
 
 /* Responsive */
