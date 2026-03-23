@@ -1,12 +1,13 @@
 /* About page profile image */
 .post .profile {
   float: right;
-  width: 380px !important;
-  max-width: 380px !important;
+  width: 400px !important;        /* slightly larger */
+  max-width: 400px !important;
   margin-left: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
+/* Image styling */
 .post .profile img,
 .post .profile figure {
   width: 100% !important;
@@ -16,21 +17,26 @@
 
 .post .profile img {
   display: block;
-  border-radius: 12px;
+  border-radius: 14px;            /* smoother corners */
   object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); 
 }
 
+/* Info text */
 .post .profile .more-info {
   font-size: 0.92rem;
   line-height: 1.55;
-  margin-top: 0.8rem;
+  margin-top: 0.9rem;
+  color: #555;                   /* softer text */
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .post .profile {
     float: none;
     width: 100% !important;
-    max-width: 380px !important;
+    max-width: 420px !important;
     margin: 0 auto 1.5rem auto;
+    text-align: center;
   }
 }
