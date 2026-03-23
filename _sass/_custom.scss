@@ -1,53 +1,38 @@
-/* About page layout */
 .about-flex {
-  display: flex;
+  display: flex !important;
+  flex-direction: row !important;
   align-items: flex-start;
   gap: 2.5rem;
 }
 
 .about-main {
-  flex: 1 1 0;
+  flex: 1 1 auto;
   min-width: 0;
 }
 
 .post .profile {
   flex: 0 0 380px;
-  width: 380px;
-  max-width: 380px;
+  width: 380px !important;
+  max-width: 380px !important;
   margin: 0;
 }
 
-.post .profile img,
-.post .profile figure {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-}
-
 .post .profile img {
-  display: block;
+  width: 100% !important;
   border-radius: 14px;
   object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-}
-
-.post .profile .more-info {
-  font-size: 0.92rem;
-  line-height: 1.6;
-  margin-top: 0.9rem;
-  color: #555;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
 @media (max-width: 900px) {
   .about-flex {
-    flex-direction: column-reverse;
-    gap: 1.5rem;
+    flex-direction: column-reverse !important;
   }
 
   .post .profile {
-    width: 100%;
-    max-width: 420px;
-    align-self: center;
+    width: 100% !important;
+    max-width: 420px !important;
+    margin: 0 auto;
     text-align: center;
   }
 }
