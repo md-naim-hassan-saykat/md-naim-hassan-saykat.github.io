@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Artificial Intelligence Researcher · Computer Vision · Medical Imaging
+subtitle: Artificial Intelligence Researcher · Computer Vision · Medical Imaging · Explainable AI
 
 profile:
   align: right
@@ -23,8 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Md Naim Hassan Saykat**, an AI researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**.  
-I am currently pursuing my Master’s in Artificial Intelligence at **Université Paris-Saclay**, where my work focuses on building **generalizable, explainable, and efficient deep learning systems** for real-world diagnostic and healthcare applications.
+I am **Md Naim Hassan Saykat**, an AI researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**. I am currently pursuing my Master’s in Artificial Intelligence at **Université Paris-Saclay**, where I focus on building **generalizable, explainable, and efficient deep learning systems** for real-world healthcare and diagnostic applications.
 
 My research interests include:
 
