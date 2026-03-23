@@ -1,18 +1,22 @@
-/* About page profile image */
+/* About page layout */
+.about-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.about-main {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .post .profile {
-  float: right;
-  width: 400px !important;
-  max-width: 400px !important;
-  margin-left: 2rem;
-  margin-bottom: 1.2rem;
+  flex: 0 0 380px;
+  width: 380px;
+  max-width: 380px;
+  margin: 0;
 }
 
-/* FIX: prevent text overlap */
-.post {
-  overflow: auto;   /* clears float properly */
-}
-
-/* Image styling */
 .post .profile img,
 .post .profile figure {
   width: 100% !important;
@@ -27,21 +31,23 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
-/* Info text */
 .post .profile .more-info {
   font-size: 0.92rem;
-  line-height: 1.55;
+  line-height: 1.6;
   margin-top: 0.9rem;
   color: #555;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  .about-flex {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
   .post .profile {
-    float: none;
-    width: 100% !important;
-    max-width: 420px !important;
-    margin: 0 auto 1.5rem auto;
+    width: 100%;
+    max-width: 420px;
+    align-self: center;
     text-align: center;
   }
 }
