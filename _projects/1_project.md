@@ -7,19 +7,16 @@ img: /assets/img/1.jpg
 importance: 1
 category: work
 giscus_comments: true
-
 year: 2026
 status: "Under review"
 tags:
   - Medical Imaging
   - Deep Ensembles
   - Grad-CAM
-subtitle: "Medical Imaging · Melanoma Detection · Explainable AI"
-
 links:
- doi: "https://doi.org/10.5281/zenodo.17390952"
- paper: "https://zenodo.org/records/17390952"
- github: "https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
+  doi: "https://doi.org/10.5281/zenodo.17390952"
+  paper: "https://zenodo.org/records/17390952"
+  github: "https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
 ---
 
 <div class="container mt-5">
