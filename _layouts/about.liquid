@@ -26,17 +26,17 @@ layout: default
       rounded' %}
           {% endif %}
           <div class="profile-image-wrapper">
-  {%
-    include figure.liquid
-    loading="eager"
-    path=profile_image_path
-    class=profile_image_class
-    alt=page.profile.image
-    width="260"
-    max-width="260px"
-    cache_bust=true
-  %}
-</div>
+            {%
+              include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image
+              width="260"
+              max-width="260px"
+              cache_bust=true
+            %}
+          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
