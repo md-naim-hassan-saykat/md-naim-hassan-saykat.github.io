@@ -7,7 +7,7 @@ subtitle: Artificial Intelligence Researcher · Computer Vision · Medical Imagi
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Université Paris-Saclay</p>
     <p>Orsay, Île-de-France, France</p>
