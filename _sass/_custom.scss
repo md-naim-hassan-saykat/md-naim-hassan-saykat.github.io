@@ -1,12 +1,13 @@
 /* About page layout */
 .about-flex {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   gap: 2.5rem;
 }
 
 .about-main {
-  flex: 1 1 0;
+  flex: 1 1 auto;
   min-width: 0;
 }
 
@@ -38,19 +39,28 @@
   color: #555;
 }
 
+/* Mobile layout */
 @media (max-width: 900px) {
   .about-flex {
-    flex-direction: column-reverse;
+    flex-direction: column !important;
     gap: 1.5rem;
   }
 
-  .post .profile {
+  .about-main {
     width: 100%;
-    max-width: 420px;
-    align-self: center;
+  }
+
+  .post .profile {
+    flex: none;
+    width: 100% !important;
+    max-width: 420px !important;
+    margin: 0 auto;
     text-align: center;
   }
-<<<<<<< HEAD
+
+  .post .profile .more-info {
+    text-align: left;
+  }
 }
 
 /* Prevent content from going under fixed navbar */
@@ -61,10 +71,3 @@ body.fixed-top-nav {
 body.fixed-top-nav .post-header {
   margin-top: 0;
 }
-
-.post .post-header {
-  padding-top: 1.5rem;
-}
-=======
-}
->>>>>>> 6fd2137 (Fix fixed navbar overlap with global top padding)
