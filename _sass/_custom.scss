@@ -1,38 +1,65 @@
+/* About page layout */
 .about-flex {
-  display: flex !important;
-  flex-direction: row !important;
+  display: flex;
   align-items: flex-start;
   gap: 2.5rem;
 }
 
 .about-main {
-  flex: 1 1 auto;
+  flex: 1 1 0;
   min-width: 0;
 }
 
 .post .profile {
   flex: 0 0 380px;
-  width: 380px !important;
-  max-width: 380px !important;
+  width: 380px;
+  max-width: 380px;
   margin: 0;
 }
 
-.post .profile img {
+.post .profile img,
+.post .profile figure {
   width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.post .profile img {
+  display: block;
   border-radius: 14px;
   object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.post .profile .more-info {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-top: 0.9rem;
+  color: #555;
 }
 
 @media (max-width: 900px) {
   .about-flex {
-    flex-direction: column-reverse !important;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
   }
 
   .post .profile {
-    width: 100% !important;
-    max-width: 420px !important;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 420px;
+    align-self: center;
     text-align: center;
   }
+}
+
+/* Prevent content from going under fixed header */
+body.fixed-top-nav .post,
+body.fixed-top-nav .page-content,
+body.fixed-top-nav .container {
+  padding-top: 2rem;
+}
+
+/* Extra spacing for about page header */
+body.fixed-top-nav .post .post-header {
+  margin-top: 1rem;
 }
