@@ -94,15 +94,12 @@ links:
         model predictions and align with clinically relevant lesion structures.
       </p>
 
-      <div class="row justify-content-center g-4 mb-4">
-        <div class="col-md-5">
-          <div class="text-center">
-            <h6 class="text-uppercase text-muted small fw-bold mb-3">Melanoma Example</h6>
-            {% include figure.liquid
-               path="assets/img/gradcam1.jpg"
-               title="Grad-CAM visualization for melanoma prediction"
-               class="img-fluid rounded shadow" %}
-          </div>
+      <div class="text-center mb-4">
+  {% include figure.liquid
+     path="https://raw.githubusercontent.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000/main/results/figures/gradcam_grid.png"
+     title="Grad-CAM visualizations across lesion classes"
+     class="img-fluid rounded shadow" %}
+</div>
         </div>
 
         <div class="col-md-5">
@@ -117,9 +114,8 @@ links:
       </div>
 
       <p class="text-muted text-center fst-italic small mb-5">
-        Explainability results demonstrate that ensemble predictions rely on
-        clinically meaningful regions rather than spurious image artifacts.
-      </p>
+  Grad-CAM visualizations across multiple lesion classes illustrate that the ensemble focuses on clinically relevant regions associated with diagnostic decision-making.
+</p>
 
       <hr class="my-5">
 
