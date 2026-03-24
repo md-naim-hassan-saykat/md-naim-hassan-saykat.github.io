@@ -25,19 +25,19 @@ links:
     <div class="col-lg-10 mx-auto">
 
       <p class="lead mb-4">
-        This project presents a <strong>robust and generalizable deep learning ensemble framework</strong>
-        for automated <strong>skin lesion classification</strong>, with a focus on melanoma detection.
-        Multiple complementary architectures are combined to improve diagnostic performance,
-        prediction stability, and cross-dataset generalization in real-world medical imaging settings.
-      </p>
+This project presents a robust and generalizable deep learning ensemble
+for skin lesion classification, achieving strong performance across both
+internal (HAM10000) and external (ISIC 2019) datasets, with a focus on
+clinically reliable melanoma detection and real-world generalization.
+</p>
 
       <p class="mb-4">
-        The ensemble integrates <strong>CNN baselines, ResNet50, DenseNet121, EfficientNetB3,
-        ConvNeXt-Tiny, MobileNetV3, and Vision Transformer (ViT-B/16)</strong>.
-        Models are trained on <strong>HAM10000</strong> and evaluated both internally and via
-        <strong>external validation on ISIC 2019</strong>, following best practices for
-        medical AI benchmarking.
-      </p>
+  The ensemble integrates <strong>CNN baselines, ResNet50, DenseNet121, EfficientNetB3,
+  ConvNeXt-Tiny, MobileNetV3, and Vision Transformer (ViT-B/16)</strong>.
+  Models are trained on <strong>HAM10000</strong> and evaluated both internally and through
+  <strong>external validation on ISIC 2019</strong>, following best practices for
+  medical AI benchmarking.
+</p>
 
       <hr class="my-5">
 
@@ -76,7 +76,8 @@ links:
 
       <div class="alert alert-info" role="alert">
         <ul class="mb-0">
-          <li>The ensemble consistently outperforms individual models</li>
+          <li>The ensemble achieves up to XX% ROC-AUC and XX% macro-F1,
+consistently outperforming individual models across all datasets.</li>
           <li>Improved <strong>melanoma sensitivity</strong> and minority-class performance</li>
           <li>Strong <strong>macro-F1</strong> and <strong>ROC–AUC</strong> across datasets</li>
           <li>Stable predictions for rare lesion categories</li>
@@ -102,7 +103,7 @@ links:
 </div>
 
 <p class="text-muted text-center fst-italic small mb-5">
-  Grad-CAM visualizations across multiple lesion classes illustrate that the ensemble focuses on clinically relevant regions associated with diagnostic decision-making.
+  Grad-CAM visualizations across multiple lesion classes demonstrate that the ensemble focuses on clinically relevant regions and lesion boundaries, improving interpretability and trust for medical decision support.
 </p>
 
       <h2 class="h3 mb-3">Publication Status</h2>
