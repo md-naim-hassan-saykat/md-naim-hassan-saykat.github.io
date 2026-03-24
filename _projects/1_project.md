@@ -79,7 +79,7 @@ clinically reliable melanoma detection and real-world generalization.
           <li>The ensemble achieves up to XX% ROC-AUC and XX% macro-F1,
 consistently outperforming individual models across all datasets.</li>
           <li>Improved <strong>melanoma sensitivity</strong> and minority-class performance</li>
-          <li>Strong <strong>macro-F1</strong> and <strong>ROC–AUC</strong> across datasets</li>
+          <li>Strong <strong>macro-F1</strong> and <strong>ROC-AUC</strong> across datasets</li>
           <li>Stable predictions for rare lesion categories</li>
           <li>External validation confirms <strong>robust generalization</strong></li>
         </ul>
