@@ -25,13 +25,15 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
           {%
-            include figure.liquid
-            loading="eager"
-            path=profile_image_path
-            class=profile_image_class
-            alt=page.profile.image
-            cache_bust=true
-          %}
+  include figure.liquid
+  loading="eager"
+  path=profile_image_path
+  class=profile_image_class
+  alt=page.profile.image
+  width="300"
+  max-width="300px"
+  cache_bust=true
+%}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
