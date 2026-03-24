@@ -16,12 +16,12 @@ layout: default
 
   <article>
     {% if page.profile %}
-  <div class="about-flex" style="display: flex; flex-direction: row; align-items: flex-start; gap: 2.5rem;">
-    <div class="about-main" style="flex: 1 1 auto; min-width: 0;">
+  <div class="about-flex">
+  <div class="about-main">
       <div class="clearfix">{{ content }}</div>
     </div>
 
-    <aside class="profile" style="flex: 0 0 380px; width: 380px; max-width: 380px; margin: 0;">
+    <aside class="profile">
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
