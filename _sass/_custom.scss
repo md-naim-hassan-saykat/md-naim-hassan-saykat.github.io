@@ -1,19 +1,10 @@
-/* About page layout */
-.about-flex {
-  display: grid !important;
-  grid-template-columns: minmax(0, 1fr) 380px !important;
-  align-items: start;
-  gap: 2.5rem;
-}
-
-.about-main {
-  min-width: 0;
-}
-
+/* About page profile image */
 .post .profile {
-  width: 380px;
-  max-width: 380px;
-  margin: 0;
+  float: right;
+  width: 360px;
+  max-width: 360px;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 .post .profile img,
@@ -26,7 +17,6 @@
 .post .profile img {
   display: block;
   border-radius: 14px;
-  object-fit: cover;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
@@ -37,17 +27,13 @@
   color: #555;
 }
 
-/* Mobile layout */
-@media (max-width: 900px) {
-  .about-flex {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem;
-  }
-
+/* Mobile */
+@media (max-width: 768px) {
   .post .profile {
+    float: none;
     width: 100%;
     max-width: 420px;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem auto;
     text-align: center;
   }
 
@@ -56,11 +42,7 @@
   }
 }
 
-/* Prevent content from going under fixed navbar */
+/* Keep content below fixed navbar */
 body.fixed-top-nav {
   padding-top: 95px;
-}
-
-body.fixed-top-nav .post-header {
-  margin-top: 0;
 }
