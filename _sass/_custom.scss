@@ -51,15 +51,3 @@
     text-align: center;
   }
 }
-
-/* Prevent content from going under fixed header */
-body.fixed-top-nav .post,
-body.fixed-top-nav .page-content,
-body.fixed-top-nav .container {
-  padding-top: 2rem;
-}
-
-/* Extra spacing for about page header */
-body.fixed-top-nav .post .post-header {
-  margin-top: 1rem;
-}
