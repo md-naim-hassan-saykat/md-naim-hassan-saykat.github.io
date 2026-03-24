@@ -51,3 +51,12 @@
     text-align: center;
   }
 }
+
+/* Prevent content from going under fixed navbar */
+body.fixed-top-nav {
+  padding-top: 95px;
+}
+
+body.fixed-top-nav .post-header {
+  margin-top: 0;
+}
