@@ -3,10 +3,10 @@ layout: page
 title: "Skin Lesion Classification with Deep Learning Ensembles"
 subtitle: "Medical Imaging · Melanoma Detection · Explainable AI"
 description: "A generalizable ensemble deep learning framework for automated skin lesion classification, integrating CNNs and ViTs with internal + external validation."
-img: /assets/img/1.jpg
+img: /assets/img/gradcam.png
 importance: 1
 category: work
-giscus_comments: true
+giscus_comments: false
 year: 2026
 status: "Under review"
 tags:
@@ -88,36 +88,22 @@ links:
 
       <h2 class="h3 mb-4">Explainable AI (Grad-CAM)</h2>
 
-      <p class="mb-4">
-        To support clinical interpretability, <strong>Grad-CAM</strong> visualizations are generated
-        for all models in the ensemble. These heatmaps highlight regions of interest that drive
-        model predictions and align with clinically relevant lesion structures.
-      </p>
+<p class="mb-4">
+  To support clinical interpretability, <strong>Grad-CAM</strong> visualizations are generated
+  for all models in the ensemble. These heatmaps highlight regions of interest that drive
+  model predictions and align with clinically relevant lesion structures.
+</p>
 
-      <div class="text-center mb-4">
+<div class="text-center mb-4">
   {% include figure.liquid
      path="https://raw.githubusercontent.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000/main/results/figures/gradcam_grid.png"
      title="Grad-CAM visualizations across lesion classes"
      class="img-fluid rounded shadow" %}
 </div>
-        </div>
 
-        <div class="col-md-5">
-          <div class="text-center">
-            <h6 class="text-uppercase text-muted small fw-bold mb-3">Nevus Example</h6>
-            {% include figure.liquid
-               path="assets/img/gradcam2.jpg"
-               title="Grad-CAM visualization for nevus prediction"
-               class="img-fluid rounded shadow" %}
-          </div>
-        </div>
-      </div>
-
-      <p class="text-muted text-center fst-italic small mb-5">
+<p class="text-muted text-center fst-italic small mb-5">
   Grad-CAM visualizations across multiple lesion classes illustrate that the ensemble focuses on clinically relevant regions associated with diagnostic decision-making.
 </p>
-
-      <hr class="my-5">
 
       <h2 class="h3 mb-3">Publication Status</h2>
 
