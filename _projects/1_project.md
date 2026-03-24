@@ -143,6 +143,3 @@ links:
 
     </div>
 
-  </div>
-
-</div>
