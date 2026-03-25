@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-publications",
-          title: "publications",
-          description: "Manuscripts, preprints, and research outputs.",
+          title: "Publications",
+          description: "Manuscripts, preprints, and research contributions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
