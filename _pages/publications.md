@@ -1,10 +1,10 @@
 ---
 layout: page
-title: publications
+title: Publications
 permalink: /publications/
-description: "Manuscripts, preprints, and research outputs."
+description: "Manuscripts, preprints, and research contributions."
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## Manuscripts Under Review
@@ -37,7 +37,7 @@ nav_order: 3
           <li>Multi-model ensemble learning</li>
           <li>Internal & external validation protocol</li>
           <li>Explainable AI (Grad-CAM)</li>
-          <li>Medical image robustness & generalization</li>
+          <li>Medical image robustness and generalization</li>
         </ul>
 
         <div class="d-flex flex-wrap gap-2">
@@ -48,7 +48,7 @@ nav_order: 3
             Code (GitHub)
           </a>
           <a class="btn btn-sm btn-outline-secondary" href="https://zenodo.org/records/17390952" target="_blank" rel="noopener">
-            Dataset & artifacts (Zenodo)
+            Dataset and artifacts (Zenodo)
           </a>
           <a class="btn btn-sm btn-outline-secondary" href="https://orcid.org/0009-0007-5270-3970" target="_blank" rel="noopener">
             ORCID
