@@ -11,14 +11,24 @@ nav_order: 4
 
   <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-2 mb-4">
     <div>
-      <p class="lead mb-1">
-        Selected work: research prototypes, reproducible experiments, and end-to-end implementations.
-      </p>
-      <p class="text-muted mb-0">
-        For more, visit my GitHub profile:
-        <a href="https://github.com/md-naim-hassan-saykat" target="_blank" rel="noopener">github.com/md-naim-hassan-saykat</a>
-      </p>
-    </div>
+  <p class="lead mb-1">
+    Selected work: research prototypes, reproducible experiments, and end-to-end implementations.
+  </p>
+
+  <!-- ADD THIS HERE -->
+  <p class="text-muted mb-2">
+    These repositories provide implementation details and reproducible code
+    for my research projects. For structured descriptions and methodologies,
+    please refer to the <a href="/projects/">Projects section</a>.
+  </p>
+
+  <p class="text-muted mb-0">
+    For more, visit my GitHub profile:
+    <a href="https://github.com/md-naim-hassan-saykat" target="_blank" rel="noopener">
+      github.com/md-naim-hassan-saykat
+    </a>
+  </p>
+</div>
   </div>
 
   <div class="row g-4">
