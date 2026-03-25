@@ -23,12 +23,12 @@ latest_posts:
   enabled: false
 ---
 
-<p>
-  <a href="https://github.com/md-naim-hassan-saykat" target="_blank">
+<p class="social-icons">
+  <a href="https://github.com/md-naim-hassan-saykat" target="_blank" rel="noopener">
     <i class="fab fa-github fa-lg"></i>
   </a>
   &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank">
+  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank" rel="noopener">
     <i class="fab fa-linkedin fa-lg"></i>
   </a>
   &nbsp;&nbsp;
