@@ -41,25 +41,30 @@
 
 /* ===== MOBILE FIX ===== */
 @media (max-width: 900px) {
-  .about-flex {
-    flex-direction: column-reverse;
-    gap: 1.8rem;
-  }
-
-  .about-main {
-    max-width: 100%;
-  }
-
   .post .profile {
-    flex: none;
-    width: 100%;
-    max-width: 360px;
-    align-self: center;
+    float: none !important;
+    clear: both !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto 1.5rem auto !important;
     text-align: center;
+  }
+
+  .post .profile img,
+  .post .profile figure,
+  .post .profile picture {
+    width: 100% !important;
+    max-width: 360px !important;
+    height: auto !important;
   }
 
   .post .profile .more-info {
     text-align: left;
+  }
+
+  .post article .clearfix {
+    clear: both !important;
   }
 }
 
