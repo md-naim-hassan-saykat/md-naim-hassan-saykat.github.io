@@ -95,7 +95,6 @@ links:
     <p class="mb-4">
     The complete implementation, retrieval pipelines, re-ranking models, evaluation scripts, and detailed documentation are available on 
     <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank">
-    GitHub
     </a>.
     </p>
 
