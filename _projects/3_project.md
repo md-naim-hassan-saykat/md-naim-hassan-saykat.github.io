@@ -18,15 +18,17 @@ links:
       <p class="lead mb-4">
         This project implements <strong>Cycle-Consistent Generative Adversarial Networks (CycleGAN)</strong>
         for <strong>unpaired image-to-image translation</strong>, focusing on the canonical
-        <em>Horse ↔ Zebra</em> task.
+        <em>Horse ↔ Zebra</em> benchmark task.
         The goal is to learn mappings between two visual domains without requiring paired training data,
         following the original CycleGAN formulation.
+        The model successfully learns cross-domain mappings without paired supervision,
+        demonstrating strong generalization in unpaired image translation tasks.
       </p>
 
       <p class="mb-4">
         The implementation is built in <strong>PyTorch</strong> and emphasizes
         <strong>reproducibility</strong>, <strong>training stability</strong>, and
-        <strong>evaluation beyond visual inspection</strong>, combining qualitative results
+        <strong>evaluation beyond qualitative visual inspection</strong>, combining qualitative results
         with quantitative image similarity metrics.
       </p>
 
@@ -65,7 +67,7 @@ links:
       <div class="alert alert-info" role="alert">
         <ul class="mb-0">
           <li><strong>SSIM (Structural Similarity Index)</strong> to measure perceptual structure preservation</li>
-          <li><strong>PSNR</strong> to quantify reconstruction fidelity</li>
+          <li><strong>PSNR (Peak Signal-to-Noise Ratio)</strong> to quantify reconstruction fidelity</li>
           <li>Side-by-side comparison of <em>real</em>, <em>translated</em>, and <em>cycle-reconstructed</em> images</li>
           <li>Visual inspection across multiple test samples</li>
         </ul>
@@ -89,7 +91,7 @@ links:
 
       <p class="text-muted text-center fst-italic small mb-5">
         Generated samples demonstrate texture transfer and stripe synthesis while preserving
-        underlying object structure, validating effective cycle consistency.
+        underlying object structure, demonstrating effective cycle consistency and domain translation quality.
       </p>
 
       <hr class="my-5">
@@ -97,7 +99,7 @@ links:
       <h2 class="h3 mb-3">Repository</h2>
 
       <p class="mb-4">
-        The full implementation, training scripts, and result visualizations are available here:
+        The full implementation, training scripts, and result visualizations are available at:
         <br>
         <a href="https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan" target="_blank" rel="noopener">
           https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan
