@@ -229,15 +229,23 @@
 ------------------------------ */
 
 .social-icons {
-  margin: 0.35rem 0 1.15rem 0;
-  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.95rem;
+  color: #444;
 }
 
 .social-icons a {
   text-decoration: none;
+  color: #444;
   font-weight: 500;
 }
 
+.social-icons span {
+  margin: 0 6px;
+  color: #aaa;
+}
+
 .social-icons a:hover {
-  text-decoration: underline;
+  color: #000;
 }
