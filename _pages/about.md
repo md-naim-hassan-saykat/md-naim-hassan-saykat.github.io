@@ -14,7 +14,7 @@ profile:
     <p><a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr">md-naim-hassan.saykat@universite-paris-saclay.fr</a></p>
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
