@@ -80,9 +80,10 @@ medical AI benchmarking.
 
       <div class="alert alert-info" role="alert">
         <ul class="mb-0">
-          <li>The ensemble achieves up to XX% ROC-AUC and XX% macro-F1,
-
-consistently outperforming individual models across all datasets.</li>
+<li> 
+The ensemble achieves strong ROC-AUC and macro-F1 performance,
+consistently outperforming individual models across all datasets.
+</li>
 <li>Improved <strong>melanoma sensitivity</strong> and minority-class performance</li>
 <li>Strong <strong>macro-F1</strong> and <strong>ROC-AUC</strong> across datasets</li>
 <li>Stable predictions for rare lesion categories</li>
@@ -114,7 +115,7 @@ consistently outperforming individual models across all datasets.</li>
       <h2 class="h3 mb-3">Publication Status</h2>
 
       <p class="mb-4">
-        This work forms the basis of an <strong>ongoing Q1 journal submission</strong>
+        This work forms the basis of an <strong>currently under review in a Q1-level journal</strong>
         focused on generalizable and explainable deep learning systems for
         medical image analysis.
       </p>
@@ -125,7 +126,7 @@ consistently outperforming individual models across all datasets.</li>
 
       <p class="mb-4">
         The complete implementation, training pipelines, evaluation scripts,
-        and documentation are available here:
+        and reproducibility materials are available at:
         <br>
         <a href="https://github.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000"
            target="_blank" rel="noopener">
