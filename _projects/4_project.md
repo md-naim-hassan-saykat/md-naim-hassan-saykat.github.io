@@ -21,11 +21,13 @@ links:
         <strong>transformer-based architectures</strong>.
         The goal is to systematically compare classical NLP pipelines against modern deep contextual models
         under a unified evaluation framework.
+        This study provides a comprehensive comparison between classical and deep learning approaches for
+        text-based emotion recognition under a unified evaluation setting.
       </p>
 
       <p class="mb-4">
         Experiments are conducted on the widely used
-        <strong><code>dair-ai/emotion</code></strong> dataset, with careful attention to
+        <code>dair-ai/emotion</code> benchmark dataset, with careful attention to
         preprocessing, feature representations, model selection, and metric-based analysis.
         The repository is structured to support reproducibility and controlled comparison across approaches.
       </p>
@@ -40,7 +42,7 @@ links:
           <ol class="mb-0">
             <li>
               <strong>Classical ML Pipeline:</strong>
-              TF–IDF feature extraction followed by classifiers such as Logistic Regression, SVM, and Random Forest.
+              TF-IDF feature extraction followed by classifiers such as Logistic Regression, SVM, and Random Forest.
             </li>
             <li>
               <strong>Transformer-Based Modeling:</strong>
@@ -55,7 +57,7 @@ links:
           <h5 class="card-title">Key Components</h5>
           <ul class="mb-0">
             <li>Text preprocessing and normalization</li>
-            <li>TF–IDF vectorization for classical baselines</li>
+            <li>TF-IDF vectorization for classical baselines</li>
             <li>Transformer fine-tuning with task-specific heads</li>
             <li>Optional ensemble modeling across classifiers</li>
             <li>Unified evaluation and comparison framework</li>
@@ -81,7 +83,7 @@ links:
       <h2 class="h3 mb-4">Results & Analysis</h2>
 
       <p class="mb-4">
-        Transformer-based models achieve the strongest overall performance, demonstrating the benefit of
+        Transformer-based models consistently achieve the strongest overall performance, demonstrating the benefit of
         contextualized representations for emotion understanding.
         Classical models remain competitive baselines and provide interpretability and efficiency advantages.
         Ensemble experiments highlight trade-offs between robustness and peak performance.
@@ -109,7 +111,7 @@ links:
       <h2 class="h3 mb-3">Repository</h2>
 
       <p class="mb-4">
-        The full implementation, experimental notebooks, and evaluation scripts are available here:
+        The full implementation, experimental notebooks, and evaluation scripts are available at:
         <br>
         <a href="https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp" target="_blank" rel="noopener">
           https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp
