@@ -99,8 +99,8 @@ links:
     <p class="mb-4">
     <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank">
     GitHub Repository
-  </a>
-</p>
+    </a>
+    </p>
 
     </div>
 
