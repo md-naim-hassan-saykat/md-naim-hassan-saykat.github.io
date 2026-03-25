@@ -18,10 +18,10 @@
   margin: 0;
 }
 
-.post .profile img,
-.post .profile figure {
-  width: 100% !important;
-  height: auto !important;
+.post .profile {
+  flex: 0 0 460px;
+  width: 460px;
+  max-width: 460px;
 }
 
 .post .profile img {
