@@ -17,14 +17,14 @@ links:
     <div class="col-lg-10 mx-auto">
 
       <p class="lead mb-4">
-        This project builds an end-to-end <strong>patent retrieval and re-ranking</strong> system designed for research-grade evaluation.
+        This project builds an end-to-end <strong>patent retrieval and re-ranking</strong> system designed for rigorous research evaluation.
         The pipeline first retrieves candidates using <strong>dense vector search</strong>, then improves ranking quality with a
         <strong>transformer-based cross-encoder</strong> that scores query–document relevance more precisely.
       </p>
 
       <p class="mb-4">
         The system supports experimentation with embedding models, re-rankers, and fusion strategies, and reports standard IR metrics such as
-        <strong>Recall@k</strong>, <strong>MAP</strong>, and <strong>Mean Rank (MRR)</strong>.
+        <strong>Recall@k</strong>, <strong>MAP</strong>, and <strong>MRR (Mean Reciprocal Rank)</strong>.
         The repository is organized into clear notebooks/scripts for training, inference, and analysis.
       </p>
 
@@ -93,7 +93,7 @@ links:
       <h2 class="h3 mb-3">Repository</h2>
 
     <p class="mb-4">
-    The complete implementation, retrieval pipelines, re-ranking models, evaluation scripts, and detailed documentation are available here:
+    The complete implementation, retrieval pipelines, re-ranking models, evaluation scripts, and detailed documentation are available at:
     <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank">
     github.com/md-naim-hassan-saykat/ir-patent-reranking
     </a>
