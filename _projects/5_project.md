@@ -20,13 +20,17 @@ links:
         <strong>convolutional neural network (CNN) baselines</strong> applied to dermoscopic images.
         The focus is on building a clean, reproducible training and evaluation pipeline that serves as a
         foundation for more advanced architectures and ensemble methods in medical imaging.
+        This study establishes a strong baseline for dermoscopic image classification,
+        enabling systematic comparison with advanced deep learning models in subsequent research.
       </p>
 
       <p class="mb-4">
         The implementation emphasizes correct data handling, model training stability, and
-        metric-driven evaluation—key requirements for clinically oriented machine learning workflows.
+        metric-driven evaluation, which are key requirements for clinically oriented machine learning workflows.
         While intentionally kept as a baseline study, the project is designed to scale toward
         deeper networks, explainability, and external validation.
+        This baseline framework provides a reproducible foundation for benchmarking advanced architectures
+        in medical image classification.
       </p>
 
       <hr class="my-5">
@@ -75,7 +79,7 @@ links:
       <h2 class="h3 mb-4">Results & Analysis</h2>
 
       <p class="mb-4">
-        The CNN baselines provide a solid performance reference for dermoscopic image classification.
+        The CNN baselines provide a strong performance baseline for dermoscopic image classification.
         Results highlight both the strengths and limitations of shallow architectures,
         motivating the use of deeper networks, transfer learning, and ensemble strategies
         in subsequent work.
@@ -103,7 +107,7 @@ links:
       <h2 class="h3 mb-3">Repository</h2>
 
       <p class="mb-4">
-        The full codebase, training notebooks, and evaluation scripts are available here:
+        The full codebase, training notebooks, and evaluation scripts are available at:
         <br>
         <a href="https://github.com/md-naim-hassan-saykat/skin-cancer-cnn" target="_blank" rel="noopener">
           https://github.com/md-naim-hassan-saykat/skin-cancer-cnn
