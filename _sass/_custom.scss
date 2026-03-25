@@ -6,21 +6,18 @@
   gap: 4rem;
 }
 
-/* Control text width for readability */
 .about-main {
   flex: 1 1 58%;
   max-width: 680px;
 }
 
-/* Profile image block */
 .post .profile {
-  flex: 0 0 480px !important;
-  width: 480px !important;
-  max-width: 480px !important;
-  margin-left: 1.5rem !important;
+  flex: 0 0 460px;
+  width: 460px;
+  max-width: 460px;
+  margin-left: 1rem;
 }
 
-/* Force image and wrapper to fully use container */
 .post .profile img,
 .post .profile figure,
 .post .profile picture {
@@ -29,7 +26,6 @@
   height: auto !important;
 }
 
-/* Image styling */
 .post .profile img {
   display: block;
   border-radius: 16px;
@@ -37,7 +33,6 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Info under image */
 .post .profile .more-info {
   font-size: 0.95rem;
   line-height: 1.7;
@@ -48,7 +43,7 @@
 /* ===== MOBILE FIX ===== */
 @media (max-width: 900px) {
   .about-flex {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 1.8rem;
   }
 
@@ -57,9 +52,6 @@
   }
 
   .post .profile {
-    float: none !important;
-    clear: both !important;
-    display: block !important;
     flex: none !important;
     width: 100% !important;
     max-width: 360px !important;
@@ -77,10 +69,6 @@
 
   .post .profile .more-info {
     text-align: left;
-  }
-
-  .post article .clearfix {
-    clear: both !important;
   }
 }
 
