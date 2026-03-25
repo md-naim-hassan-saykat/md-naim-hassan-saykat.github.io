@@ -10,8 +10,8 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-projects",
-          title: "projects",
-          description: "A curated selection of research-driven projects spanning medical imaging, information retrieval, and generative deep learning, with an emphasis on reproducibility and real-world evaluation.",
+          title: "Projects",
+          description: "A curated portfolio of research projects in medical imaging, information retrieval, and generative deep learning, emphasizing reproducibility, generalization, and real-world evaluation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
