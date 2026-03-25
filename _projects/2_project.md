@@ -92,14 +92,11 @@ links:
 
       <h2 class="h3 mb-3">Repository</h2>
 
-    <p class="mb-2">
-    The complete implementation, retrieval pipelines, re-ranking models, and evaluation framework are available on GitHub:
-    </p>
-
     <p class="mb-4">
+    The complete implementation, retrieval pipelines, re-ranking models, evaluation scripts, and detailed documentation are available on 
     <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank">
-    GitHub Repository
-    </a>
+    GitHub
+    </a>.
     </p>
 
     </div>
