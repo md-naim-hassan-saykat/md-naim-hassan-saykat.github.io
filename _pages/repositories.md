@@ -1,8 +1,8 @@
 ---
 layout: page
-title: repositories
+title: Repositories
 permalink: /repositories/
-description: "Selected GitHub repositories (research, projects, and implementations)."
+description: "Selected GitHub repositories showcasing research implementations, experiments, and reproducible systems."
 nav: true
 nav_order: 4
 ---
@@ -18,7 +18,7 @@ nav_order: 4
   <!-- ADD THIS HERE -->
   <p class="text-muted mb-2">
     These repositories provide implementation details and reproducible code
-    for my research projects. For structured descriptions and methodologies,
+    supporting my research projects. For structured descriptions and methodologies,
     please refer to the <a href="/projects/">Projects section</a>.
   </p>
 
