@@ -6,7 +6,7 @@ description: "Research-oriented patent retrieval pipeline combining dense retrie
 img: /assets/img/2.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 links:
   github: "https://github.com/md-naim-hassan-saykat/ir-patent-reranking"
 ---
@@ -24,7 +24,7 @@ links:
 
       <p class="mb-4">
         The system supports experimentation with embedding models, re-rankers, and fusion strategies, and reports standard IR metrics such as
-        <strong>Recall@k</strong>, <strong>MAP</strong>, and <strong>Mean Rank / MRR</strong>.
+        <strong>Recall@k</strong>, <strong>MAP</strong>, and <strong>Mean Rank (MRR)</strong>.
         The repository is organized into clear notebooks/scripts for training, inference, and analysis.
       </p>
 
@@ -60,10 +60,9 @@ links:
 
       <div class="alert alert-info" role="alert">
         <ul class="mb-0">
-          <li><strong>Recall@k</strong> to measure candidate coverage in top-k retrieval</li>
-          <li><strong>MAP</strong> to measure ranking quality across queries</li>
-          <li><strong>MRR / Mean Rank</strong> to quantify how early relevant documents appear</li>
-          <li>Comparison across retrievers, re-rankers, and fusion variants</li>
+          <li><strong>Recall@k</strong></li>
+          <li><strong>MAP</strong></li>
+          <li><strong>MRR / Mean Rank</strong></li>
         </ul>
       </div>
 
@@ -72,29 +71,21 @@ links:
       <h2 class="h3 mb-4">Qualitative Analysis</h2>
 
       <div class="row justify-content-center g-4 mb-4">
-        <div class="col-md-5">
+        <div class="col-md-8">
           <div class="text-center">
-            <h6 class="text-uppercase text-muted small fw-bold mb-3">Re-ranking Impact</h6>
+            <h6 class="text-uppercase text-muted small fw-bold mb-3">
+              Patent Retrieval Pipeline Overview
+            </h6>
             {% include figure.liquid
-               path="assets/img/ir-rerank-impact.jpg"
-               title="Ranking improvement after cross-encoder re-ranking"
-               class="img-fluid rounded shadow" %}
-          </div>
-        </div>
-
-        <div class="col-md-5">
-          <div class="text-center">
-            <h6 class="text-uppercase text-muted small fw-bold mb-3">Metrics Comparison</h6>
-            {% include figure.liquid
-               path="assets/img/ir-metrics-comparison.jpg"
-               title="Recall/MAP/MRR comparison across models"
+               path="assets/img/2.jpg"
+               title="Patent retrieval and re-ranking pipeline overview"
                class="img-fluid rounded shadow" %}
           </div>
         </div>
       </div>
 
       <p class="text-muted text-center fst-italic small mb-5">
-        Tip: If you don’t have these images yet, either add them under <code>assets/img/</code> or remove this whole section.
+        This figure summarizes the two-stage retrieval and re-ranking workflow.
       </p>
 
       <hr class="my-5">
@@ -102,10 +93,8 @@ links:
       <h2 class="h3 mb-3">Repository</h2>
 
       <p class="mb-4">
-        The full implementation, experiments, and documentation are available here:
-        <br>
-        <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank" rel="noopener">
-          https://github.com/md-naim-hassan-saykat/ir-patent-reranking
+        <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank">
+          GitHub Repository
         </a>
       </p>
 
