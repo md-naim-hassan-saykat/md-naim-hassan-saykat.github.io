@@ -62,3 +62,43 @@
     text-align: left;
   }
 }
+
+/* Make mobile navbar toggle visible */
+.navbar-toggler {
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-light .navbar-toggler-icon::before,
+.navbar-light .navbar-toggler-icon::after,
+.navbar-light .navbar-toggler-icon {
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon::before,
+.navbar-light .navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  height: 2px;
+  background-color: #222;
+  border-radius: 2px;
+}
+
+.navbar-light .navbar-toggler-icon::before {
+  top: 0.35rem;
+  box-shadow: 0 0.35rem 0 #222;
+}
+
+.navbar-light .navbar-toggler-icon::after {
+  top: 1.05rem;
+}
