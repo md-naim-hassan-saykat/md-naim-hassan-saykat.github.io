@@ -3,7 +3,7 @@
 .about-flex {
   display: flex;
   align-items: flex-start;
-  gap: 4rem; /* MORE SPACE between text and image */
+  gap: 4rem;
 }
 
 /* Control text width for readability */
@@ -12,27 +12,32 @@
   max-width: 680px;
 }
 
-/* ===== FORCE BIGGER PROFILE IMAGE ===== */
-
+/* Profile image block */
 .post .profile {
   flex: 0 0 480px !important;
   width: 480px !important;
   max-width: 480px !important;
+  margin-left: 1.5rem !important;
 }
 
-/* Force image to fully use container */
-.post .profile img {
+/* Force image and wrapper to fully use container */
+.post .profile img,
+.post .profile figure,
+.post .profile picture {
   width: 100% !important;
+  max-width: 100% !important;
   height: auto !important;
 }
 
-/* Optional: slightly more premium look */
+/* Image styling */
 .post .profile img {
+  display: block;
   border-radius: 16px;
+  object-fit: cover;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Improve spacing under image */
+/* Info under image */
 .post .profile .more-info {
   font-size: 0.95rem;
   line-height: 1.7;
@@ -42,10 +47,20 @@
 
 /* ===== MOBILE FIX ===== */
 @media (max-width: 900px) {
+  .about-flex {
+    flex-direction: column-reverse;
+    gap: 1.8rem;
+  }
+
+  .about-main {
+    max-width: 100%;
+  }
+
   .post .profile {
     float: none !important;
     clear: both !important;
     display: block !important;
+    flex: none !important;
     width: 100% !important;
     max-width: 360px !important;
     margin: 0 auto 1.5rem auto !important;
@@ -69,7 +84,7 @@
   }
 }
 
-/* Make mobile navbar toggle visible */
+/* ===== MOBILE NAVBAR TOGGLE ===== */
 .navbar-toggler {
   border: none;
   padding: 0.25rem 0.5rem;
