@@ -24,11 +24,11 @@ latest_posts:
 ---
 
 <p class="social-icons">
-  <a href="https://github.com/md-naim-hassan-saykat" target="_blank" rel="noopener" aria-label="GitHub">🐙 GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank" rel="noopener" aria-label="LinkedIn">in LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr" aria-label="Email">✉ Email</a>
+  <a href="https://github.com/md-naim-hassan-saykat" target="_blank" aria-label="GitHub">GitHub</a>
+  <span>·</span>
+  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+  <span>·</span>
+  <a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr" aria-label="Email">Email</a>
 </p>
 
 I am **Md Naim Hassan Saykat**, an Artificial Intelligence researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**.  
