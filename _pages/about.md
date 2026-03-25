@@ -24,16 +24,16 @@ latest_posts:
 ---
 
 <p class="social-icons">
-  <a href="https://github.com/md-naim-hassan-saykat" target="_blank" rel="noopener">
-    <i class="fab fa-github fa-lg"></i>
+  <a href="https://github.com/md-naim-hassan-saykat" target="_blank" rel="noopener" aria-label="GitHub">
+    <i class="fa-brands fa-github fa-lg"></i>
   </a>
   &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank" rel="noopener">
-    <i class="fab fa-linkedin fa-lg"></i>
+  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin fa-lg"></i>
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr">
-    <i class="fas fa-envelope fa-lg"></i>
+  <a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr" aria-label="Email">
+    <i class="fa-solid fa-envelope fa-lg"></i>
   </a>
 </p>
 
