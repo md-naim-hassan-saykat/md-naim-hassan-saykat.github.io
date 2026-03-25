@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Artificial Intelligence Researcher · Computer Vision · Medical Imaging · Explainable AI
 
