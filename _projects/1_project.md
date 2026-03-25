@@ -25,18 +25,22 @@ links:
     <div class="col-lg-10 mx-auto">
 
       <p class="lead mb-4">
+
 This project presents a robust and generalizable deep learning ensemble
 for skin lesion classification, achieving strong performance across both
 internal (HAM10000) and external (ISIC 2019) datasets, with a focus on
 clinically reliable melanoma detection and real-world generalization.
+
 </p>
 
       <p class="mb-4">
-  The ensemble integrates <strong>CNN baselines, ResNet50, DenseNet121, EfficientNetB3,
-  ConvNeXt-Tiny, MobileNetV3, and Vision Transformer (ViT-B/16)</strong>.
-  Models are trained on <strong>HAM10000</strong> and evaluated both internally and through
-  <strong>external validation on ISIC 2019</strong>, following best practices for
-  medical AI benchmarking.
+
+The ensemble integrates <strong>CNN baselines, ResNet50, DenseNet121, EfficientNetB3,
+ConvNeXt-Tiny, MobileNetV3, and Vision Transformer (ViT-B/16)</strong>.
+Models are trained on <strong>HAM10000</strong> and evaluated both internally and through
+<strong>external validation on ISIC 2019</strong>, following best practices for
+medical AI benchmarking.
+
 </p>
 
       <hr class="my-5">
@@ -77,13 +81,14 @@ clinically reliable melanoma detection and real-world generalization.
       <div class="alert alert-info" role="alert">
         <ul class="mb-0">
           <li>The ensemble achieves up to XX% ROC-AUC and XX% macro-F1,
+
 consistently outperforming individual models across all datasets.</li>
-          <li>Improved <strong>melanoma sensitivity</strong> and minority-class performance</li>
-          <li>Strong <strong>macro-F1</strong> and <strong>ROC-AUC</strong> across datasets</li>
-          <li>Stable predictions for rare lesion categories</li>
-          <li>External validation confirms <strong>robust generalization</strong></li>
-        </ul>
-      </div>
+<li>Improved <strong>melanoma sensitivity</strong> and minority-class performance</li>
+<li>Strong <strong>macro-F1</strong> and <strong>ROC-AUC</strong> across datasets</li>
+<li>Stable predictions for rare lesion categories</li>
+<li>External validation confirms <strong>robust generalization</strong></li>
+</ul>
+</div>
 
       <hr class="my-5">
 
@@ -129,4 +134,3 @@ consistently outperforming individual models across all datasets.</li>
       </p>
 
     </div>
-
