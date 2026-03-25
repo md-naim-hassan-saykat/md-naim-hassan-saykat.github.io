@@ -1,4 +1,4 @@
-/* ===== ABOUT PAGE - FLOAT LAYOUT COMPATIBLE ===== */
+/* ===== ABOUT PAGE STABLE FLOAT LAYOUT ===== */
 
 .post .profile {
   float: right !important;
@@ -30,11 +30,7 @@
   color: #555;
 }
 
-.post .clearfix {
-  overflow: visible;
-}
-
-/* ===== MOBILE FIX ===== */
+/* Mobile */
 @media (max-width: 900px) {
   .post .profile {
     float: none !important;
@@ -61,83 +57,7 @@
   }
 }
 
-/* ===== MOBILE NAVBAR TOGGLE ===== */
-.navbar-toggler {
-  border: none;
-  padding: 0.25rem 0.5rem;
-}
-
-.navbar-light .navbar-toggler-icon {
-  background-image: none;
-  width: 1.5rem;
-  height: 1.5rem;
-  position: relative;
-  display: inline-block;
-}
-
-.navbar-light .navbar-toggler-icon::before,
-.navbar-light .navbar-toggler-icon::after,
-.navbar-light .navbar-toggler-icon {
-  background-color: transparent;
-}
-
-.navbar-light .navbar-toggler-icon::before,
-.navbar-light .navbar-toggler-icon::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 1.5rem;
-  height: 2px;
-  background-color: #222;
-  border-radius: 2px;
-}
-
-.navbar-light .navbar-toggler-icon::before {
-  top: 0.35rem;
-  box-shadow: 0 0.35rem 0 #222;
-}
-
-.navbar-light .navbar-toggler-icon::after {
-  top: 1.05rem;
-}  font-size: 0.95rem;
-  line-height: 1.7;
-  margin-top: 1rem;
-  color: #555;
-}
-
-/* ===== MOBILE FIX ===== */
-@media (max-width: 900px) {
-  .about-flex {
-    flex-direction: column;
-    gap: 1.8rem;
-  }
-
-  .about-main {
-    max-width: 100%;
-  }
-
-  .post .profile {
-    flex: none !important;
-    width: 100% !important;
-    max-width: 360px !important;
-    margin: 0 auto 1.5rem auto !important;
-    text-align: center;
-  }
-
-  .post .profile img,
-  .post .profile figure,
-  .post .profile picture {
-    width: 100% !important;
-    max-width: 360px !important;
-    height: auto !important;
-  }
-
-  .post .profile .more-info {
-    text-align: left;
-  }
-}
-
-/* ===== MOBILE NAVBAR TOGGLE ===== */
+/* Mobile navbar toggle */
 .navbar-toggler {
   border: none;
   padding: 0.25rem 0.5rem;
