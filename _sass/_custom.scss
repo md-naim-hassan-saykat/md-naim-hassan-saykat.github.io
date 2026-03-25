@@ -3,25 +3,27 @@
 .about-flex {
   display: flex;
   align-items: flex-start;
-  gap: 3rem; /* more breathing space */
+  gap: 3rem;
 }
 
 .about-main {
   flex: 1 1 60%;
-  max-width: 720px; /* control text width for readability */
-}
-
-.post .profile {
-  flex: 0 0 420px; /* bigger image */
-  width: 420px;
-  max-width: 420px;
-  margin: 0;
+  max-width: 720px;
 }
 
 .post .profile {
   flex: 0 0 460px;
   width: 460px;
   max-width: 460px;
+  margin: 0;
+}
+
+.post .profile img,
+.post .profile figure,
+.post .profile picture {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .post .profile img {
@@ -51,9 +53,14 @@
   }
 
   .post .profile {
+    flex: none;
     width: 100%;
     max-width: 360px;
     align-self: center;
     text-align: center;
+  }
+
+  .post .profile .more-info {
+    text-align: left;
   }
 }
