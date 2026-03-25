@@ -14,7 +14,7 @@ profile:
     <p><a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr">md-naim-hassan.saykat@universite-paris-saclay.fr</a></p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -36,8 +36,6 @@ latest_posts:
     <i class="fa-solid fa-envelope fa-lg"></i>
   </a>
 </p>
-
----
 
 I am **Md Naim Hassan Saykat**, an Artificial Intelligence researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**.  
 I am currently pursuing my Master’s in Artificial Intelligence at **Université Paris-Saclay**, where I focus on developing **generalizable, explainable, and efficient deep learning systems** for real-world diagnostic and healthcare applications.
