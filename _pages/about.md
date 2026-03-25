@@ -24,15 +24,17 @@ latest_posts:
 ---
 
 <p class="social-icons">
-  <a href="https://github.com/md-naim-hassan-saykat" target="_blank" aria-label="GitHub">GitHub</a>
-  <span>·</span>
-  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank" aria-label="LinkedIn">LinkedIn</a>
-  <span>·</span>
-  <a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr" aria-label="Email">Email</a>
+  <a href="https://github.com/md-naim-hassan-saykat" target="_blank">GitHub</a>
+  <span>&nbsp;·&nbsp;</span>
+  <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank">LinkedIn</a>
+  <span>&nbsp;·&nbsp;</span>
+  <a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr">Email</a>
 </p>
 
-I am **Md Naim Hassan Saykat**, an Artificial Intelligence researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**.  
-I am currently pursuing my Master’s in Artificial Intelligence at **Université Paris-Saclay**, where I focus on developing **generalizable, explainable, and efficient deep learning systems** for real-world diagnostic and healthcare applications.
+I am an Artificial Intelligence researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**.  
+I am currently pursuing my Master’s in Artificial Intelligence at **Université Paris-Saclay**, where I develop **generalizable, explainable, and efficient deep learning systems** for real-world diagnostic and healthcare applications.
+
+My research focuses on building clinically reliable and generalizable AI systems, with an emphasis on cross-dataset validation, explainability, and real-world deployment.
 
 My research interests include:
 
@@ -52,7 +54,7 @@ I have developed multiple **end-to-end research systems**, including:
 
 My work emphasizes **robustness**, **clinical interpretability**, and **real-world deployability**, with a focus on producing **publishable, high-impact research**. I am currently preparing manuscripts targeting **Q1 journals in medical imaging and AI**.
 
-I am actively seeking opportunities for:
+I am actively seeking research opportunities in:
 
 - **Research collaborations**
 - **Journal and conference publications**
