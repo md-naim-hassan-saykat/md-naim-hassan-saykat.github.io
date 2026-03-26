@@ -67,7 +67,7 @@ nav_order: 3
 ## Preprints
 
 <p class="text-muted">
-  No public preprints available yet. This section will be updated upon submission or acceptance.
+  A preprint of this work is publicly available on Zenodo. Additional manuscripts are currently under review and in preparation.
 </p>
 
 ---
