@@ -250,19 +250,3 @@
   color: #000;
 }
 
-
-
-/* Remove top progress/loading bar */
-.progress-bar,
-#nprogress,
-#nprogress .bar,
-#nprogress .peg,
-#nprogress .spinner,
-.pace,
-.pace-progress,
-.pace .pace-progress,
-.pace .pace-activity {
-  display: none !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
-}
