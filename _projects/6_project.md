@@ -22,13 +22,6 @@ links:
   <div class="row">
     <div class="col-lg-10 mx-auto">
 
-  <div class="text-center mb-5">
-        {% include figure.liquid
-           path="https://raw.githubusercontent.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model/main/images/generated_samples.png"
-           title="Generated Fashion-MNIST samples using simplified DRAW model"
-           class="img-fluid rounded shadow" %}
-      </div>
-
   <p class="lead mb-4">
         This project explores <strong>recurrent generative modeling</strong> through a simplified implementation
         of the <strong>DRAW (Deep Recurrent Attentive Writer)</strong> architecture, applied to the
