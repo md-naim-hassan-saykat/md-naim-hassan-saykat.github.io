@@ -23,17 +23,18 @@ links:
     <div class="col-lg-10 mx-auto">
 
   <p class="lead mb-4">
-        This project explores <strong>recurrent generative modeling</strong> through a simplified implementation
-        of the <strong>DRAW (Deep Recurrent Attentive Writer)</strong> architecture, applied to the
-        <strong>Fashion-MNIST dataset</strong>.
-      </p>
+This work investigates <strong>recurrent generative modeling</strong> through a simplified implementation 
+of the <strong>DRAW (Deep Recurrent Attentive Writer)</strong> architecture, applied to the 
+<strong>Fashion-MNIST dataset</strong>.
+</p>
 
-  <p class="mb-4">
-        The model is formulated as a <strong>recurrent variational autoencoder (VAE)</strong> that iteratively refines
-        image reconstructions using an encoder-decoder LSTM structure and latent variable sampling.
-        The implementation focuses on <strong>learning structured latent representations</strong> under
-        limited computational constraints.
-      </p>
+<p class="mb-4">
+The model is formulated as a <strong>recurrent variational autoencoder (VAE)</strong> that iteratively refines 
+image reconstructions via an encoder–decoder LSTM architecture and latent variable sampling. 
+The study focuses on understanding <strong>structured latent representation learning</strong> 
+and the trade-off between reconstruction fidelity and latent regularization under 
+<strong>computationally efficient settings</strong>.
+</p>
       
 
    <hr class="my-5">
