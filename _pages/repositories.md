@@ -194,13 +194,10 @@ nav_order: 4
         </div>
       </div>
     </div>
-
-  </div>
-</div>
-
+    
 <!-- 6 -->
-<div class="col-md-6 col-lg-4">
-  <div class="card repo-card h-100 shadow-sm border-0">
+     <div class="col-md-6 col-lg-4">
+     <div class="card repo-card h-100 shadow-sm border-0">
     <a href="https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model" target="_blank" rel="noopener">
       <img class="card-img-top repo-cover"
            src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/draw-fashion-mnist-generative-model"
