@@ -71,6 +71,11 @@ ninja.data = [{
           description: "CNN-based framework for skin lesion and melanoma classification using dermoscopic image datasets, serving as a strong baseline for medical imaging research.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-simplified-draw-model-for-generative-image-modeling",
+          title: 'Simplified DRAW Model for Generative Image Modeling',
+          description: "Implementation of a simplified DRAW-style recurrent variational autoencoder for iterative image reconstruction and generation on Fashion-MNIST.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
