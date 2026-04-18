@@ -101,7 +101,7 @@ links:
         <br>
         <a href="https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model"
            target="_blank" rel="noopener">
-          [GitHub Repository](https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model)
+           https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model
         </a>
       </p>
 
