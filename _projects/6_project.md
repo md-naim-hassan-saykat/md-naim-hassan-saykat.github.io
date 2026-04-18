@@ -3,7 +3,6 @@ layout: page
 title: "Simplified DRAW Model for Generative Image Modeling"
 subtitle: "Generative Modeling · Variational Autoencoders · Representation Learning"
 description: "Implementation of a simplified DRAW-style recurrent variational autoencoder for iterative image reconstruction and generation on Fashion-MNIST."
-img: https://raw.githubusercontent.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model/main/images/generated_samples.png
 importance: 5
 category: work
 giscus_comments: false
