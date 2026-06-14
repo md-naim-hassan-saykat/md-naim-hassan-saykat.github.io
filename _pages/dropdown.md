@@ -4,9 +4,9 @@ title: blog
 permalink: /blog/
 nav: false
 children:
-  . title: bookshelf
+  - title: bookshelf
     permalink: /books/
-  . title: divider
-  . title: blog
+  - title: divider
+  - title: blog
     permalink: /blog/
 ---
