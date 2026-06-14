@@ -25,11 +25,11 @@ latest_posts:
 
 <p class="social-icons">
   <a href="https://github.com/md-naim-hassan-saykat" target="_blank">GitHub</a>
-  <span>·</span>
+  <span>.</span>
   <a href="https://linkedin.com/in/md-naim-hassan-saykat" target="_blank">LinkedIn</a>
-  <span>·</span>
+  <span>.</span>
   <a href="https://orcid.org/0009-0007-5270-3970" target="_blank">ORCID</a>
-  <span>·</span>
+  <span>.</span>
   <a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr">Email</a>
 </p>
 
