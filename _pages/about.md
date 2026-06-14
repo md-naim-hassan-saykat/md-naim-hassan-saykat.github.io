@@ -40,7 +40,7 @@ My research focuses on building clinically reliable and generalizable AI systems
 
 My research interests include:
 
-. **Medical Image Analysis** (dermatology, radiology, X-ray interpretation)
+.  **Medical Image Analysis** (dermatology, radiology, X-ray interpretation)
 . **Vision Transformers (ViT)** and **hybrid CNN-Transformer architectures**
 . **Explainable AI (XAI)**, Grad-CAM, attention mechanisms, feature attribution
 . **Domain adaptation & cross-dataset generalization** (e.g., HAM10000 to ISIC 2019)
