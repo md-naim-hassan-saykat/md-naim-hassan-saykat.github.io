@@ -34,7 +34,7 @@ latest_posts:
 </p>
 
 I am an Artificial Intelligence researcher specializing in **Computer Vision, Medical Imaging, Deep Learning, and Transformer-based architectures**.  
-I am currently pursuing my Master’s in Artificial Intelligence at **Université Paris-Saclay**, where I develop **generalizable, explainable, and efficient deep learning systems** for real-world diagnostic and healthcare applications.
+I am currently pursuing my Master's in Artificial Intelligence at **Université Paris-Saclay**, where I develop **generalizable, explainable, and efficient deep learning systems** for real-world diagnostic and healthcare applications.
 
 My research focuses on building clinically reliable and generalizable AI systems, with an emphasis on cross-dataset validation, explainability, and real-world deployment.
 
