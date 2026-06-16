@@ -53,7 +53,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-patent-retrieval-amp-re-ranking-dense-cross-encoders",
           title: 'Patent Retrieval &amp;amp; Re-ranking (Dense + Cross-Encoders)',
-          description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re--ranking, evaluated using standard IR metrics.",
+          description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re-ranking, evaluated using standard IR metrics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-cyclegan-unpaired-horse-to-zebra-image-translation",
