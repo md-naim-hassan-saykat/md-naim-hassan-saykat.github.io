@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Skin Cancer Classification (CNN Baselines)"
-subtitle: "Medical Imaging · Convolutional Neural Networks · Dermoscopy"
+subtitle: "Medical Imaging . Convolutional Neural Networks . Dermoscopy"
 description: "CNN-based framework for skin lesion and melanoma classification using dermoscopic image datasets, serving as a strong baseline for medical imaging research."
 img: /assets/img/5.jpg
 importance: 5
