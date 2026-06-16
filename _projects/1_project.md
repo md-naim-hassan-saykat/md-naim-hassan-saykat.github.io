@@ -115,7 +115,9 @@ consistently outperforming individual models across all datasets.
       <h2 class="h3 mb-3">Publication Status</h2>
 
       <p class="mb-4">
-        This work forms the basis of a manuscript <strong>currently under review in a journal</strong></li> focused on generalizable and explainable deep learning systems for medical image analysis.
+        This work forms the basis of a manuscript 
+        <strong>currently under review in a journal</strong> 
+        focused on generalizable and explainable deep learning systems for medical image analysis.
       </p>
 
       <hr class="my-5">
