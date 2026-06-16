@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Artificial Intelligence Researcher . Medical Imaging . Computer Vision · Trustworthy AI
+subtitle: Artificial Intelligence Researcher . Medical Imaging . Computer Vision . Trustworthy AI
 
 profile:
   align: right
