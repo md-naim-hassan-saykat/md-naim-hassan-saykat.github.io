@@ -106,7 +106,7 @@ nav_order: 3
     <p class="card-text mb-3">
       The proposed system combines <strong>efficient deep ensembles</strong> (CNN, ResNet, Vision Transformer)
       with <strong>Grad-CAM-based explainability</strong> and evaluates
-      <strong>accuracy–latency trade-offs</strong> on edge-oriented platforms.
+      <strong>accuracy-latency trade-offs</strong> on edge-oriented platforms.
       A lightweight web-based diagnostic interface is developed to demonstrate
       practical deployment feasibility.
     </p>
