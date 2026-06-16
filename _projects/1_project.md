@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Skin Lesion Classification with Deep Learning Ensembles"
-subtitle: "Medical Imaging · Melanoma Detection · Explainable AI"
+subtitle: "Medical Imaging . Melanoma Detection . Explainable AI"
 description: "A generalizable ensemble deep learning framework for automated skin lesion classification, integrating CNNs and ViTs with internal + external validation."
 img: https://raw.githubusercontent.com/md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000/main/results/figures/gradcam_grid.png
 importance: 1
