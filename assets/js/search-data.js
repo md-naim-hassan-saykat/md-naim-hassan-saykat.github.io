@@ -56,8 +56,8 @@ ninja.data = [{
           description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re--ranking, evaluated using standard IR metrics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-cyclegan-horse-zebra-unpaired-image-translation",
-          title: 'CycleGAN: Horse ↔ Zebra (Unpaired Image Translation)',
+            },},{id: "projects-cyclegan-unpaired-horse-to-zebra-image-translation",
+          title: 'CycleGAN: Unpaired Horse-to-Zebra Image Translation',
           description: "PyTorch implementation of CycleGAN for unpaired image-to-image translation, with qualitative results and quantitative evaluation using SSIM and PSNR.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
