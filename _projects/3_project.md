@@ -18,7 +18,7 @@ links:
       <p class="lead mb-4">
         This project implements <strong>Cycle-Consistent Generative Adversarial Networks (CycleGAN)</strong>
         for <strong>unpaired image-to-image translation</strong>, focusing on the canonical
-        <em>Horse ↔ Zebra</em> benchmark task.
+        <em>Horse-to-Zebra</em> benchmark task.
         The goal is to learn mappings between two visual domains without requiring paired training data,
         following the original CycleGAN formulation.
         The model successfully learns cross-domain mappings without paired supervision,
