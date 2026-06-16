@@ -2,7 +2,7 @@
 layout: page
 title: "Patent Retrieval & Re-ranking (Dense + Cross-Encoders)"
 subtitle: "Information Retrieval · Dense Retrieval · Cross-Encoder Re-ranking"
-description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re-ranking, evaluated using standard IR metrics."
+description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re--ranking, evaluated using standard IR metrics."
 img: /assets/img/2.jpg
 importance: 2
 category: work
@@ -19,7 +19,7 @@ links:
       <p class="lead mb-4">
         This project builds an end-to-end <strong>patent retrieval and re-ranking</strong> system designed for rigorous research evaluation.
         The pipeline first retrieves candidates using <strong>dense vector search</strong>, then improves ranking quality with a
-        <strong>transformer-based cross-encoder</strong> that scores query–document relevance more precisely.
+        <strong>transformer-based cross-encoder</strong> that scores query-document relevance more precisely.
       </p>
 
       <p class="mb-4">
@@ -36,8 +36,8 @@ links:
         <div class="card-body">
           <h5 class="card-title">Two-Stage Retrieval</h5>
           <ol class="mb-0">
-            <li><strong>Stage 1 — Dense Retrieval:</strong> encode queries and documents into embeddings and retrieve top-k candidates via ANN search.</li>
-            <li><strong>Stage 2 — Cross-Encoder Re-ranking:</strong> score each (query, candidate) pair with a transformer model and re-order results.</li>
+            <li><strong>Stage 1 - Dense Retrieval:</strong> encode queries and documents into embeddings and retrieve top-k candidates via ANN search.</li>
+            <li><strong>Stage 2 - Cross-Encoder Re-ranking:</strong> score each (query, candidate) pair with a transformer model and re-order results.</li>
           </ol>
         </div>
       </div>
