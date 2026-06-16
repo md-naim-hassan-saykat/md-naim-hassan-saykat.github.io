@@ -30,7 +30,7 @@ of the <strong>DRAW (Deep Recurrent Attentive Writer)</strong> architecture, app
 
 <p class="mb-4">
 The model is formulated as a <strong>recurrent variational autoencoder (VAE)</strong> that iteratively refines 
-image reconstructions via an encoder–decoder LSTM architecture and latent variable sampling. 
+image reconstructions via an encoder-decoder LSTM architecture and latent variable sampling. 
 The study focuses on understanding <strong>structured latent representation learning</strong> 
 and the trade-off between reconstruction fidelity and latent regularization under 
 <strong>computationally efficient settings</strong>.
@@ -42,7 +42,7 @@ and the trade-off between reconstruction fidelity and latent regularization unde
    <h2 class="h3 mb-4">Model Design</h2>
 
   <ul class="mb-4">
-        <li>Encoder–Decoder architecture based on <strong>LSTM modules</strong></li>
+        <li>Encoder-Decoder architecture based on <strong>LSTM modules</strong></li>
         <li>Latent variable sampling via <strong>reparameterization trick</strong></li>
         <li>Iterative canvas refinement for progressive reconstruction</li>
         <li>Simplified variant without attention mechanism for efficiency</li>
@@ -89,7 +89,7 @@ and the trade-off between reconstruction fidelity and latent regularization unde
 
    <ul class="mb-4">
         <li>Latent dimensionality significantly affects representation capacity</li>
-        <li>β-VAE regularization introduces a clear reconstruction–structure trade-off</li>
+        <li>β-VAE regularization introduces a clear reconstruction-structure trade-off</li>
         <li>Recurrent generative models can learn meaningful structure even without attention</li>
       </ul>
 
