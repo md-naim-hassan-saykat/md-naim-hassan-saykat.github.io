@@ -4,7 +4,6 @@ repo_description_lines_max: 2
 
 github_repos:
   - md-naim-hassan-saykat/skin-lesion-classification-ensemble-ham10000
-  - md-naim-hassan-saykat/skin-cancer-cnn
   - md-naim-hassan-saykat/ir-patent-reranking
   - md-naim-hassan-saykat/horse-to-zebra-cyclegan
   - md-naim-hassan-saykat/emotion-recognition-nlp
