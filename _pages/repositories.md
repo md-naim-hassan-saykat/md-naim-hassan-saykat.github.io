@@ -70,38 +70,6 @@ nav_order: 4
     <!-- 2 -->
     <div class="col-md-6 col-lg-4">
       <div class="card repo-card h-100 shadow-sm border-0">
-        <a href="https://github.com/md-naim-hassan-saykat/skin-cancer-cnn" target="_blank" rel="noopener">
-          <img class="card-img-top repo-cover"
-               src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/skin-cancer-cnn"
-               alt="Skin Cancer CNN Baseline">
-        </a>
-        <div class="card-body">
-          <div class="d-flex justify-content-between align-items-start gap-2">
-            <h5 class="card-title mb-2">Skin Cancer Classification (CNN Baseline)</h5>
-            <span class="badge text-bg-primary">Medical Imaging</span>
-          </div>
-
-          <p class="card-text text-muted repo-desc">
-            Strong baseline for dermoscopic image classification with training, evaluation, and interpretability workflow.
-          </p>
-
-          <div class="repo-tags mb-3">
-            <span class="badge rounded-pill text-bg-light">CNN</span>
-            <span class="badge rounded-pill text-bg-light">Grad-CAM</span>
-            <span class="badge rounded-pill text-bg-light">Reproducible</span>
-          </div>
-
-          <a class="btn btn-sm btn-outline-primary"
-             href="https://github.com/md-naim-hassan-saykat/skin-cancer-cnn" target="_blank" rel="noopener">
-            View on GitHub →
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 3 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank" rel="noopener">
           <img class="card-img-top repo-cover"
                src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/ir-patent-reranking"
@@ -131,7 +99,7 @@ nav_order: 4
       </div>
     </div>
 
-    <!-- 4 -->
+    <!-- 3 -->
     <div class="col-md-6 col-lg-4">
       <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan" target="_blank" rel="noopener">
@@ -163,7 +131,7 @@ nav_order: 4
       </div>
     </div>
 
-    <!-- 5 -->
+    <!-- 4 -->
     <div class="col-md-6 col-lg-4">
       <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp" target="_blank" rel="noopener">
@@ -195,7 +163,7 @@ nav_order: 4
       </div>
     </div>
     
-<!-- 6 -->
+<!-- 5 -->
      <div class="col-md-6 col-lg-4">
      <div class="card repo-card h-100 shadow-sm border-0">
     <a href="https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model" target="_blank" rel="noopener">
