@@ -66,11 +66,6 @@ ninja.data = [{
           description: "Comprehensive emotion recognition pipeline combining classical machine learning baselines with transformer-based models, evaluated on a standard emotion dataset.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-skin-cancer-classification-cnn-baselines",
-          title: 'Skin Cancer Classification (CNN Baselines)',
-          description: "CNN-based framework for skin lesion and melanoma classification using dermoscopic image datasets, serving as a strong baseline for medical imaging research.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
             },},{id: "projects-simplified-draw-model-for-generative-image-modeling",
           title: 'Simplified DRAW Model for Generative Image Modeling',
           description: "Implementation of a simplified DRAW-style recurrent variational autoencoder for iterative image reconstruction and generation on Fashion-MNIST.",
