@@ -69,6 +69,49 @@ nav_order: 4
 
     <!-- 2 -->
     <div class="col-md-6 col-lg-4">
+    <div class="card repo-card h-100 shadow-sm border-0">
+    <a href="https://github.com/md-naim-hassan-saykat/bapil"
+       target="_blank" rel="noopener">
+      <img class="card-img-top repo-cover"
+           src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/bapil"
+           alt="Bangladesh AI Policy & Innovation Lab (BAPIL)">
+    </a>
+
+    <div class="card-body">
+
+      <div class="d-flex justify-content-between align-items-start gap-2">
+        <h5 class="card-title mb-2">
+          Bangladesh AI Policy & Innovation Lab (BAPIL)
+        </h5>
+
+        <span class="badge text-bg-info">
+          AI Governance
+        </span>
+      </div>
+
+      <p class="card-text text-muted repo-desc">
+        Open-source research initiative proposing an AI-powered policy intelligence framework for Bangladesh, including the BAPIL White Paper, AI governance research, and digital government concepts.
+      </p>
+
+      <div class="repo-tags mb-3">
+        <span class="badge rounded-pill text-bg-light">AI Governance</span>
+        <span class="badge rounded-pill text-bg-light">Policy Intelligence</span>
+        <span class="badge rounded-pill text-bg-light">Digital Government</span>
+        <span class="badge rounded-pill text-bg-light">Responsible AI</span>
+      </div>
+
+      <a class="btn btn-sm btn-outline-primary"
+         href="https://github.com/md-naim-hassan-saykat/bapil"
+         target="_blank" rel="noopener">
+        View on GitHub →
+      </a>
+
+    </div>
+    </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="col-md-6 col-lg-4">
       <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/ir-patent-reranking" target="_blank" rel="noopener">
           <img class="card-img-top repo-cover"
@@ -99,7 +142,41 @@ nav_order: 4
       </div>
     </div>
 
-    <!-- 3 -->
+    <!-- 4 -->
+     <div class="col-md-6 col-lg-4">
+     <div class="card repo-card h-100 shadow-sm border-0">
+    <a href="https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model" target="_blank" rel="noopener">
+      <img class="card-img-top repo-cover"
+           src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/draw-fashion-mnist-generative-model"
+           alt="DRAW Generative Model">
+    </a>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-start gap-2">
+        <h5 class="card-title mb-2">DRAW Generative Model (Fashion-MNIST)</h5>
+        <span class="badge text-bg-warning">Generative AI</span>
+      </div>
+
+      <p class="card-text text-muted repo-desc">
+        Simplified DRAW-style recurrent VAE for iterative image reconstruction and generation, with analysis of latent dimensionality and KL regularization.
+      </p>
+
+      <div class="repo-tags mb-3">
+        <span class="badge rounded-pill text-bg-light">VAE</span>
+        <span class="badge rounded-pill text-bg-light">DRAW</span>
+        <span class="badge rounded-pill text-bg-light">LSTM</span>
+        <span class="badge rounded-pill text-bg-light">Fashion-MNIST</span>
+      </div>
+
+      <a class="btn btn-sm btn-outline-primary"
+         href="https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model"
+         target="_blank" rel="noopener">
+        View on GitHub →
+      </a>
+    </div>
+    </div>
+    </div>
+
+    <!-- 5 -->
     <div class="col-md-6 col-lg-4">
       <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan" target="_blank" rel="noopener">
@@ -131,7 +208,7 @@ nav_order: 4
       </div>
     </div>
 
-    <!-- 4 -->
+    <!-- 6 -->
     <div class="col-md-6 col-lg-4">
       <div class="card repo-card h-100 shadow-sm border-0">
         <a href="https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp" target="_blank" rel="noopener">
@@ -162,37 +239,3 @@ nav_order: 4
         </div>
       </div>
     </div>
-    
-<!-- 5 -->
-     <div class="col-md-6 col-lg-4">
-     <div class="card repo-card h-100 shadow-sm border-0">
-    <a href="https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model" target="_blank" rel="noopener">
-      <img class="card-img-top repo-cover"
-           src="https://opengraph.githubassets.com/1/md-naim-hassan-saykat/draw-fashion-mnist-generative-model"
-           alt="DRAW Generative Model">
-    </a>
-    <div class="card-body">
-      <div class="d-flex justify-content-between align-items-start gap-2">
-        <h5 class="card-title mb-2">DRAW Generative Model (Fashion-MNIST)</h5>
-        <span class="badge text-bg-warning">Generative AI</span>
-      </div>
-
-      <p class="card-text text-muted repo-desc">
-        Simplified DRAW-style recurrent VAE for iterative image reconstruction and generation, with analysis of latent dimensionality and KL regularization.
-      </p>
-
-      <div class="repo-tags mb-3">
-        <span class="badge rounded-pill text-bg-light">VAE</span>
-        <span class="badge rounded-pill text-bg-light">DRAW</span>
-        <span class="badge rounded-pill text-bg-light">LSTM</span>
-        <span class="badge rounded-pill text-bg-light">Fashion-MNIST</span>
-      </div>
-
-      <a class="btn btn-sm btn-outline-primary"
-         href="https://github.com/md-naim-hassan-saykat/draw-fashion-mnist-generative-model"
-         target="_blank" rel="noopener">
-        View on GitHub →
-      </a>
-    </div>
-  </div>
-</div>
