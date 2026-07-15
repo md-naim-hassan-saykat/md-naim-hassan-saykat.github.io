@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Bangladesh AI Policy & Innovation Lab (BAPIL)"
-subtitle: "AI Governance · Policy Intelligence · Digital Government"
+subtitle: "AI Policy Intelligence Framework for Bangladesh"
 description: "An independent research initiative proposing an AI-powered policy intelligence framework for evidence-based policymaking, responsible AI governance, and digital transformation in Bangladesh."
 img: https://raw.githubusercontent.com/md-naim-hassan-saykat/bapil/main/reports/figures/figure01.png
-importance: 6
+importance: 2
 category: work
 giscus_comments: false
 year: 2026
@@ -27,7 +27,7 @@ links:
 <div class="col-lg-10 mx-auto">
 
 <p class="lead mb-4">
-<strong>Bangladesh AI Policy & Innovation Lab (BAPIL)</strong> is an independent research initiative that explores how Artificial Intelligence (AI), policy intelligence, data analytics, and responsible AI governance can support evidence-based policymaking, digital government, and public-sector innovation in Bangladesh.
+<strong>Bangladesh AI Policy & Innovation Lab (BAPIL)</strong> is an independent research initiative dedicated to advancing Artificial Intelligence (AI), policy intelligence, responsible AI governance, digital government, and evidence-based policymaking in Bangladesh through open research, technical documentation, and policy frameworks.
 </p>
 
 <p class="mb-4">
@@ -69,7 +69,7 @@ class="img-fluid rounded shadow" %}
 
 <hr class="my-5">
 
-<h2 class="h3 mb-4">Research Outputs</h2>
+<h2 class="h3 mb-4">Research Contributions</h2>
 
 <ul class="mb-4">
 <li><strong>BAPIL White Paper (Version 1.0)</strong></li>
@@ -81,7 +81,7 @@ class="img-fluid rounded shadow" %}
 
 <hr class="my-5">
 
-<h2 class="h3 mb-4">Highlights</h2>
+<h2 class="h3 mb-4">Key Contributions</h2>
 
 <ul class="mb-4">
 <li>18-chapter AI policy framework for Bangladesh.</li>
@@ -96,14 +96,14 @@ class="img-fluid rounded shadow" %}
 <h2 class="h3 mb-4">Resources</h2>
 
 <p class="mb-3">
-<strong>GitHub Repository</strong><br>
+<strong>Repository</strong><br>
 <a href="https://github.com/md-naim-hassan-saykat/bapil" target="_blank">
 https://github.com/md-naim-hassan-saykat/bapil
 </a>
 </p>
 
 <p class="mb-3">
-<strong>Zenodo Archive (DOI)</strong><br>
+<strong>Publication (Zenodo DOI)</strong><br>
 <a href="https://doi.org/10.5281/zenodo.21360566" target="_blank">
 https://doi.org/10.5281/zenodo.21360566
 </a>
