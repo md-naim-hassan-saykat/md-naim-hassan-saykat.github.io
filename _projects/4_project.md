@@ -4,7 +4,7 @@ title: "Emotion Recognition from Text (ML + Transformers)"
 subtitle: "Natural Language Processing . Emotion Classification . Transformers"
 description: "Comprehensive emotion recognition pipeline combining classical machine learning baselines with transformer-based models, evaluated on a standard emotion dataset."
 img: /assets/img/4.jpg
-importance: 4
+importance: 5
 category: work
 links:
   github: "https://github.com/md-naim-hassan-saykat/emotion-recognition-nlp"
