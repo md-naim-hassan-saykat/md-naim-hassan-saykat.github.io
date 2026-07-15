@@ -4,7 +4,7 @@ title: "Patent Retrieval & Re-ranking (Dense + Cross-Encoders)"
 subtitle: "Information Retrieval . Dense Retrieval . Cross-Encoder Re-ranking"
 description: "Research-oriented patent retrieval pipeline combining dense retrieval with transformer cross-encoder re-ranking, evaluated using standard IR metrics."
 img: /assets/img/2.jpg
-importance: 2
+importance: 3
 category: work
 giscus_comments: false
 links:
