@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Bangladesh AI Policy & Innovation Lab (BAPIL)"
-subtitle: "AI Policy Intelligence Framework for Bangladesh"
+subtitle: "AI Governance . Policy Intelligence . Digital Government"
 description: "An independent research initiative proposing an AI-powered policy intelligence framework for evidence-based policymaking, responsible AI governance, and digital transformation in Bangladesh."
 img: https://raw.githubusercontent.com/md-naim-hassan-saykat/bapil/main/reports/figures/figure01.png
 importance: 2
