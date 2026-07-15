@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Bangladesh AI Policy & Innovation Lab (BAPIL)"
-subtitle: "AI Governance . Policy Intelligence . Digital Government"
+subtitle: "AI Governance | Policy Intelligence | Digital Government"
 description: "An independent research initiative proposing an AI-powered policy intelligence framework for evidence-based policymaking, responsible AI governance, and digital transformation in Bangladesh."
 img: https://raw.githubusercontent.com/md-naim-hassan-saykat/bapil/main/reports/figures/figure01.png
 importance: 2
@@ -31,7 +31,7 @@ links:
 </p>
 
 <p class="mb-4">
-The initiative integrates international best practices with Bangladesh's national priorities to propose a comprehensive framework for AI governance, policy intelligence, Bangla-language AI, public-sector innovation, and long-term digital transformation. Its first major outcome is the <strong>BAPIL White Paper (Version 1.0)</strong>, archived on Zenodo with a persistent DOI.
+BAPIL synthesizes international best practices with Bangladesh's national priorities to propose a comprehensive framework for AI governance, policy intelligence, Bangla-language AI, public-sector innovation, and long-term digital transformation. Its first major research output is the <strong>BAPIL White Paper (Version 1.0)</strong>, archived on Zenodo with a persistent DOI.
 </p>
 
 <hr class="my-5">
@@ -75,7 +75,7 @@ class="img-fluid rounded shadow" %}
 <li><strong>BAPIL White Paper (Version 1.0)</strong></li>
 <li>English and Bangla editions</li>
 <li>International AI governance literature studies</li>
-<li>Technical documentation and supporting research</li>
+<li>Technical documentation and supporting research materials</li>
 <li>Open-source repository with reproducible documentation</li>
 </ul>
 
@@ -84,11 +84,40 @@ class="img-fluid rounded shadow" %}
 <h2 class="h3 mb-4">Key Contributions</h2>
 
 <ul class="mb-4">
-<li>18-chapter AI policy framework for Bangladesh.</li>
+<li>Developed an 18-chapter AI policy and governance framework for Bangladesh.</li>
 <li>Comparative analysis of international AI governance models.</li>
 <li>Long-term roadmap aligned with Bangladesh's digital transformation goals.</li>
 <li>Open-source documentation archived with a persistent Zenodo DOI.</li>
 <li>Designed as a foundation for future policy intelligence research and implementation.</li>
+</ul>
+
+<hr class="my-5">
+
+<h2 class="h3 mb-4">Conceptual Workflow</h2>
+
+<p class="mb-4">
+BAPIL proposes an AI-enabled policy intelligence workflow that transforms
+government data, policy documents, citizen feedback, and research outputs
+into actionable insights through analytics, knowledge management, and
+decision-support tools.
+</p>
+
+<div class="text-center mb-4">
+{% include figure.liquid
+path="https://raw.githubusercontent.com/md-naim-hassan-saykat/bapil/main/reports/figures/figure05.png"
+title="Conceptual AI-enabled policy intelligence workflow"
+class="img-fluid rounded shadow" %}
+</div>
+
+<hr class="my-5">
+
+<h2 class="h3 mb-4">Project Status</h2>
+
+<ul class="mb-4">
+<li><strong>Status:</strong> Active research initiative</li>
+<li><strong>White Paper:</strong> Version 1.0 released</li>
+<li><strong>Repository:</strong> Open source</li>
+<li><strong>Archive:</strong> DOI assigned through Zenodo</li>
 </ul>
 
 <hr class="my-5">
@@ -103,7 +132,7 @@ https://github.com/md-naim-hassan-saykat/bapil
 </p>
 
 <p class="mb-3">
-<strong>Publication (Zenodo DOI)</strong><br>
+<strong>Zenodo Archive (DOI)</strong><br>
 <a href="https://doi.org/10.5281/zenodo.21360566" target="_blank">
 https://doi.org/10.5281/zenodo.21360566
 </a>
