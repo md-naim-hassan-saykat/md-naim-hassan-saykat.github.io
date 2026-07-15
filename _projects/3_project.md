@@ -4,7 +4,7 @@ title: "CycleGAN: Unpaired Horse-to-Zebra Image Translation"
 subtitle: "Generative Adversarial Networks . Unpaired Image Translation . Computer Vision"
 description: "PyTorch implementation of CycleGAN for unpaired image-to-image translation, with qualitative results and quantitative evaluation using SSIM and PSNR."
 img: /assets/img/3.jpg
-importance: 3
+importance: 4
 category: work
 links:
   github: "https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan"
