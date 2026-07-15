@@ -71,6 +71,11 @@ ninja.data = [{
           description: "Implementation of a simplified DRAW-style recurrent variational autoencoder for iterative image reconstruction and generation on Fashion-MNIST.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-bangladesh-ai-policy-amp-innovation-lab-bapil",
+          title: 'Bangladesh AI Policy &amp;amp; Innovation Lab (BAPIL)',
+          description: "An independent research initiative proposing an AI-powered policy intelligence framework for evidence-based policymaking, responsible AI governance, and digital transformation in Bangladesh.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
