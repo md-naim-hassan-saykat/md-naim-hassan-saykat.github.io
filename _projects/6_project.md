@@ -125,16 +125,30 @@ class="img-fluid rounded shadow" %}
 <h2 class="h3 mb-4">Resources</h2>
 
 <p class="mb-3">
-<strong>Repository</strong><br>
+<strong>GitHub Repository</strong><br>
 <a href="https://github.com/md-naim-hassan-saykat/bapil" target="_blank">
 https://github.com/md-naim-hassan-saykat/bapil
 </a>
 </p>
 
 <p class="mb-3">
-<strong>Zenodo Archive (DOI)</strong><br>
-<a href="https://doi.org/10.5281/zenodo.21360566" target="_blank">
-https://doi.org/10.5281/zenodo.21360566
+<strong>White Paper (DOI)</strong><br>
+<a href="https://doi.org/10.5281/zenodo.21363967" target="_blank">
+https://doi.org/10.5281/zenodo.21363967
+</a>
+</p>
+
+<p class="mb-3">
+<strong>Executive Summary (DOI)</strong><br>
+<a href="https://doi.org/10.5281/zenodo.21441172" target="_blank">
+https://doi.org/10.5281/zenodo.21441172
+</a>
+</p>
+
+<p class="mb-3">
+<strong>Repository Concept DOI</strong><br>
+<a href="https://doi.org/10.5281/zenodo.21360565" target="_blank">
+https://doi.org/10.5281/zenodo.21360565
 </a>
 </p>
 
