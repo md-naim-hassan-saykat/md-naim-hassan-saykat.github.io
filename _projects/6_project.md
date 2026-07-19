@@ -146,7 +146,7 @@ https://doi.org/10.5281/zenodo.21441172
 </p>
 
 <p class="mb-3">
-<strong>Repository Concept DOI (All Versions)</strong>
+<strong>Repository Concept DOI (All Versions)</strong><br>
 <a href="https://doi.org/10.5281/zenodo.21360565" target="_blank">
 https://doi.org/10.5281/zenodo.21360565
 </a>
