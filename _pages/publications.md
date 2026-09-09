@@ -142,7 +142,7 @@ nav_order: 3
 
     <p class="text-muted mb-3">
       <strong>Status:</strong> Research in preparation<br>
-      <strong>Planned submission:</strong> 2026–2027 academic year
+      <strong>Planned submission:</strong> 2026-27 academic year
     </p>
 
     <p class="card-text">
