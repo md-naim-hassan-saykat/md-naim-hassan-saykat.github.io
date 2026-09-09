@@ -46,9 +46,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-skin-lesion-classification-with-deep-learning-ensembles",
-          title: 'Skin Lesion Classification with Deep Learning Ensembles',
-          description: "A generalizable ensemble deep learning framework for automated skin lesion classification, integrating CNNs and ViTs with internal + external validation.",
+          section: "News",},{id: "projects-generalizable-skin-lesion-classification-with-deep-learning",
+          title: 'Generalizable Skin-Lesion Classification with Deep Learning',
+          description: "A reproducible study of seven deep learning architectures and a probability-level ensemble for dermoscopic skin-lesion classification, with internal evaluation on HAM10000 and external evaluation on ISIC 2019.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-patent-retrieval-amp-re-ranking-dense-cross-encoders",
