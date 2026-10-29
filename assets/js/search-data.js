@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A curated portfolio of research projects in medical imaging, information retrieval, and generative deep learning, emphasizing reproducibility, generalization, and real-world evaluation.",
+          description: "Research projects in medical image analysis, AI governance, information retrieval, natural language processing and generative deep learning, with an emphasis on reproducibility and rigorous evaluation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Manuscripts, research outputs, and ongoing scholarly work.",
+          description: "Journal manuscripts, technical reports and research outputs.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -30,23 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-generalizable-skin-lesion-classification-with-deep-learning",
+        },{id: "projects-generalizable-skin-lesion-classification-with-deep-learning",
           title: 'Generalizable Skin-Lesion Classification with Deep Learning',
           description: "A reproducible study of seven deep learning architectures and a probability-level ensemble for dermoscopic skin-lesion classification, with internal evaluation on HAM10000 and external evaluation on ISIC 2019.",
           section: "Projects",handler: () => {
@@ -73,7 +57,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "projects-bangladesh-ai-policy-amp-innovation-lab-bapil",
           title: 'Bangladesh AI Policy &amp;amp; Innovation Lab (BAPIL)',
-          description: "An independent research initiative proposing an AI-powered policy intelligence framework for evidence-based policymaking, responsible AI governance, and digital transformation in Bangladesh.",
+          description: "An independent research initiative designing a trustworthy AI policy-intelligence capability for Bangladesh, from the White Paper to a Technical Blueprint with a tested reference implementation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{
