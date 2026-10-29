@@ -9,15 +9,16 @@ last_name: Saykat
 footer_text: ""
 
 contact_note: >
-  I am available for research collaboration, publications, and PhD opportunities.
+  I am open to research collaboration and PhD opportunities.
   Best contact method: email.
 
 description: >
-  AI Researcher (Université Paris-Saclay) specializing in Computer Vision,
-  Medical Imaging, Transformers, and Explainable AI. I develop generalizable 
-  and interpretable deep learning systems for real-world applications.
+  Md Naim Hassan Saykat: AI researcher (Master's student in Artificial Intelligence,
+  Université Paris-Saclay; independent researcher, Bangladesh) working on medical
+  image analysis, computer vision, explainable AI and AI governance.
+  Author of the BAPIL Technical Blueprint for an AI policy-intelligence capability in Bangladesh.
 
-keywords: computer vision, medical imaging, deep learning, transformers, ai researcher, explainable ai
+keywords: Md Naim Hassan Saykat, AI researcher, medical image analysis, computer vision, deep learning, explainable AI, AI governance, BAPIL, Bangladesh
 lang: en
 icon: ⚛️
 
@@ -70,9 +71,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://md-naim-hassan-saykat.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -93,8 +94,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: "" # blog_name will be displayed in your blog page
+blog_description: ""
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -123,19 +124,13 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -151,8 +146,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
@@ -261,19 +254,17 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Saykat]
+  first_name: [Md Naim Hassan, M. N. H.]
 
   style: apa
   locale: en
@@ -633,9 +624,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: []
 
 jsonresume:
   - basics

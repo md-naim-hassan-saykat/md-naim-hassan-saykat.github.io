@@ -21,8 +21,6 @@ links:
         <strong>transformer-based architectures</strong>.
         The goal is to systematically compare classical NLP pipelines against modern deep contextual models
         under a unified evaluation framework.
-        This study provides a comprehensive comparison between classical and deep learning approaches for
-        text-based emotion recognition under a unified evaluation setting.
       </p>
 
       <p class="mb-4">
