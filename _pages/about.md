@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>Independent Researcher, Bangladesh</p>
     <p>Master's student in Artificial Intelligence, Université Paris-Saclay</p>
-    <p>Tangail, Bangladesh</p>
     <p><a href="mailto:md-naim-hassan.saykat@universite-paris-saclay.fr">md-naim-hassan.saykat@universite-paris-saclay.fr</a></p>
 
 selected_papers: false
