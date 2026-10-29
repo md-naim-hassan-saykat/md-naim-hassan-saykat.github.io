@@ -2,10 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A curated portfolio of research projects in medical imaging, information retrieval, and generative deep learning, emphasizing reproducibility, generalization, and real-world evaluation.
+description: Research projects in medical image analysis, AI governance, information retrieval, natural language processing and generative deep learning, with an emphasis on reproducibility and rigorous evaluation.
 nav: true
 nav_order: 2
-display_categories: [work]
 horizontal: false
 ---
 

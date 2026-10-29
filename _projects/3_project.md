@@ -21,8 +21,6 @@ links:
         <em>Horse-to-Zebra</em> benchmark task.
         The goal is to learn mappings between two visual domains without requiring paired training data,
         following the original CycleGAN formulation.
-        The model successfully learns cross-domain mappings without paired supervision,
-        demonstrating strong generalization in unpaired image translation tasks.
       </p>
 
       <p class="mb-4">

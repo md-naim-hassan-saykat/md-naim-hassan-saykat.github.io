@@ -15,7 +15,6 @@ nav_order: 4
     Selected work: research prototypes, reproducible experiments, and end-to-end implementations.
   </p>
 
-  <!-- ADD THIS HERE -->
   <p class="text-muted mb-2">
     These repositories provide implementation details and reproducible code
     supporting my research projects. For structured descriptions and methodologies,
@@ -90,7 +89,7 @@ nav_order: 4
       </div>
 
       <p class="card-text text-muted repo-desc">
-        Open-source research initiative proposing an AI-powered policy intelligence framework for Bangladesh, including the BAPIL White Paper, AI governance research, and digital government concepts.
+        Technical Blueprint and White Paper for an AI policy-intelligence capability in Bangladesh (English and Bangla), with a tested Python reference implementation: bilingual cited search, risk tiers, AI system register and audit log.
       </p>
 
       <div class="repo-tags mb-3">

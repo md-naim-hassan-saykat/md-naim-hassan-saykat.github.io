@@ -8,7 +8,7 @@ importance: 1
 category: work
 giscus_comments: false
 year: 2026
-status: "Under review"
+status: "Revised manuscript under review"
 tags:
   - Medical Imaging
   - Deep Learning
@@ -323,7 +323,7 @@ links:
           Classification: Internal Evaluation on HAM10000 and External Evaluation
           on ISIC 2019”
         </strong>,
-        which is currently under peer review.
+        for which a major revision has been submitted and is under review.
       </p>
 
       <p class="text-muted small mb-5">
